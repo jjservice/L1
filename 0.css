@@ -312,7 +312,7 @@ body{
         transition: 1s;
     }
     .dropdown a:hover{
-        background-color: #33353b;
+        background-color: gold;
         transition: 0.5s;
     }
     .g-btn:hover{
@@ -325,7 +325,7 @@ body{
         color: white;
         border: 2px solid gold;
         box-shadow: 2px 4px 10px white;
-        background-color: transparent;
+        background-color: #33353b;
         border-radius: 20px;
         text-decoration: none;
         text-shadow:2px 4px 4px gold;
