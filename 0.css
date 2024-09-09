@@ -302,7 +302,7 @@ body{
         position: absolute;
         background-color:transparent;
         min-width: 100px;
-        box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+        box-shadow: 2px 3px 5px hsla(0, 0%, 0%, 0.8);
     }
     .dropdown:hover .content{
         display: block;
