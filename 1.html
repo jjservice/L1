@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>LollipoP Player</title>
+<!-- Load FontAwesome icons -->
+<link rel="stylesheet"
+		href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+<!-- Load the custom CSS style file -->
+<link rel="stylesheet" type="text/css" href="0.css">
+<body>
+	<h1>LolliPoP<ion-icon name="pin-outline"></ion-icon>Music</h1>
+
+    <div class="dropdown">
+        <button><i class="fa fa-music" aria-hidden="true"></i></button>
+        <div class="content">
+            <a href="https://www.youtube.com/watch?v=Oui7OEwOt5U">DEMBOW</a>
+            <a href="https://www.youtube.com/watch?v=cKYe6fWdABE">MERENGUE</a>
+            <a href="https://www.youtube.com/watch?v=4-pbfb8mEpQ">BACHATA</a>
+            <a href="https://www.youtube.com/watch?v=rclLZUdozeg">SALSA</a>
+            <a href="https://www.youtube.com/watch?v=_Fi3Y0ryvR4">REGGAETON</a>
+            <a href="https://www.youtube.com/watch?v=O15ZgR1kjtQ">RANCHERAS</a>
+        </div>
+    </div>
+
+    <div id="sidebar">
+        <div class="toggle-btn" onclick ="show()">
+			<span class="span1"><ion-icon name="menu"></ion-icon></span>
+        </div>
+        <ul>
+          <li><a href="1.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.youtube.com/"><i class="fab fa-youtube fa-lg fa-fw"></i></a></li>
+          <li><a href="https://music.apple.com/us/browse"><i class="fab fa-apple fa-lg fa-fw"></i></a></li>
+          <li><a href="https://open.spotify.com/"><i class="fab fa-spotify fa-lg fa-fw"></i></a></li>
+          <li><a href="https://www.google.com/"><i class="fab fa-google fa-lg fa-fw"></i></a></li>
+          <li><a href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a></li>
+          <li><a href="https://x.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a></li>
+        </ul>
+      </div>
+      <script>
+        function show() {
+          document.getElementById('sidebar').classList.toggle('active');
+        }
+      </script>
+
+<div class="player">
+
+	<!-- Define the section for displaying details -->
+	<div class="details">
+	<div class="now-playing"></div>
+	<div class="track-art"></div>
+	<div class="track-name">.!.PLAY NEXT.!.<br><span><ion-icon name="arrow-down-circle"></ion-icon></span></div>
+	<div class="track-artist"></div>
+	</div>
+
+	<!-- Define the section for displaying track buttons -->
+	<div class="buttons">
+	<div class="prev-track" onclick="prevTrack()">
+		<i class="fa fa-step-backward fa-2x"></i>
+	</div>
+	<div class="playpause-track" onclick="playpauseTrack()">
+		<i class="fa fa-play-circle fa-5x"></i>
+	</div>
+	<div class="next-track" onclick="nextTrack()">
+		<i class="fa fa-step-forward fa-2x"></i>
+	</div>
+	</div>
+
+	<!-- Define the section for displaying the seek slider-->
+	<div class="slider_container">
+	<div class="current-time">00:00</div>
+	<input type="range" min="1" max="100"
+		value="0" class="seek_slider" onchange="seekTo()">
+	<div class="total-duration">00:00</div>
+	</div>
+
+	<!-- Define the section for displaying the volume slider-->
+	<div class="slider_container">
+	<i class="fa fa-volume-down"></i>
+	<input type="range" min="1" max="100"
+		value="99" class="volume_slider" onchange="setVolume()">
+	<i class="fa fa-volume-up"></i>
+	</div>
+</div>  
+   <h6>JJPoweredIT<i><ion-icon name="bonfire" class="icon" id="icon"></ion-icon></i></h6>
+<footer class="footer">
+   <footer class="navbar">
+	<img src="">
+</footer>
+
+<footer class="navbar1">
+	<img src="">
+</footer>
+
+<footer class="navbar2">
+	<img src="">
+</footer>
+</footer>
+
+<!-- Load the main script for the player -->
+<script src="0.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
