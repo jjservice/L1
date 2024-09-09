@@ -289,22 +289,10 @@ let track_list = [
         path: "Myke Towers - Jugador Franquicia (Lyric Video).mp3"
     },
     {
-        name: "Tú No Ta'",
-        artist: "Lapiz Conciente",
-        image: "LAPIZPIC222222.jpg",
-        path: "Lapiz Conciente - Tú No Ta'.mp3"
-    },
-    {
         name: "9 Dias",
         artist: "Lapiz Conciente",
         image: "lapizPi.jpg",
         path: "Lapiz Conciente - 9 Dias.mp3"
-    },
-    {
-        name: "Una Vela",
-        artist: "JAMBY EL FAVO",
-        image: "JAMBYPIC.jpg",
-        path: "Jamby El Favo - Una Vela (Video Oficial).mp3"
     },
     {
         name: "La Mejor Versión De Mi",

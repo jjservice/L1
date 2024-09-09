@@ -315,7 +315,7 @@ body{
         background-color: gold;
         transition: 0.5s;
     }
-    .g-btn:hover{
+    .g-btn:active:hover{
         background-color: gold;
         color: white;
     }
@@ -326,7 +326,7 @@ body{
         color: white;
         border: 2px solid gold;
         box-shadow: 2px 4px 10px black;
-        background-color: #33353b;
+        background-color: transparent;
         border-radius: 20px;
         text-decoration: none;
         text-shadow:2px 4px 4px gold;
