@@ -305,15 +305,15 @@ body{
         box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
     }
     .dropdown:hover .content{
-        display: inline-block;
+        display: block;
     }
     .dropdown:hover button{
         background-color: gold;
         transition: 1s;
     }
     .dropdown a:hover{
-        background-color: gold;
-        transition: 1s;
+        background-color: #33353b;
+        transition: 0.5s;
     }
     .g-btn:hover{
         background-color: gold;
@@ -329,5 +329,4 @@ body{
         border-radius: 20px;
         text-decoration: none;
         text-shadow:2px 4px 4px gold;
-        background-color: #151618;
     }

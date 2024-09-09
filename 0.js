@@ -37,22 +37,40 @@ let track_list = [
         path: "sapientdream - Past Lives (Lyrics).mp3"
     },
     {
+        name: "No te contaron mal",
+        artist: "Christian Nodal",
+        image: "notecontaronmal.jpg",
+        path: "Christian Nodal - No Te Contaron Mal (Audio).mp3"
+    },
+    {
         name: "Aquí Abajo",
         artist: "Christian Nodal",
-        image: "CHRISTIAN NODAL PIC.jpg",
+        image: "CHRISTIANNODALPIC.jpg",
         path: "Christian Nodal - Aquí Abajo.mp3"
     },
     {
         name: "De Los Besos Que Te Di",
         artist: "Christian Nodal",
-        image: "CHRISTIAN NODAL PIC.jpg",
+        image: "CHRISTIANNODALPIC.jpg",
         path: "Christian Nodal - De Los Besos Que Te Di.mp3"
     },
     {
         name: "Probablemente",
         artist: "Christian Nodal",
-        image: "CHRISTIAN NODAL PIC.jpg",
+        image: "CHRISTIANNODALPIC.jpg",
         path: "Christian Nodal-Probablemente.mp3"
+    },
+    {
+        name: "La gloria eres tu",
+        artist: "Luis Miguel",
+        image: "lusimiguel2.jpg",
+        path: "Luis Miguel - La Gloria Eres Tú (Video Con Letra).mp3"
+    },
+    {
+        name: "Adios Amor",
+        artist: "Chistian Nodal",
+        image: "notecontaronmal.jpg",
+        path: "Christian Nodal - Adiós Amor (Audio).mp3"
     },
     {
         name: "Si antes te hubiera conocido",
@@ -205,12 +223,6 @@ let track_list = [
 	    path:"Chencho Corleone, Peso Pluma - HUMO (Official Video).mp3"
     },
     {
-        name: "Atras del Peso",
-        artist: "Mozart La Para x Black Jonas Point",
-        image: "ATRASDELPESOPICCCCC.jpg",
-        path: "Atras del Peso - Mozart La Para x Black Jonas Point.mp3"
-    },
-    {
         name: "SEXO DESENFRENADO",
         artist: "Myke Towers",
         image: "MIKEPIC22222.jpg",
@@ -223,15 +235,27 @@ let track_list = [
         path: "Myke Towers - Inocente.mp3"
     },
     {
+        name: "TU NO CORRE",
+        artist: "SUJETO ORO 24",
+        image: "SUJETOPICCCC222222.jpg",
+        path: "TU NO CORRE - SUJETO ORO 24.mp3"
+    },
+    {
+        name: "Con Quién Te Olvido",
+        artist: "Ala Jaza",
+        image: "ALAJAPICCCC.jpg",
+        path: "Ala Jaza - Con Quién Te Olvido.mp3"
+    },
+    {
         name: "Nace Un Borracho",
         artist: "Christian Nodal",
-        image: "CHRISTIAN NODAL PIC.jpg",
+        image: "CHRISTIANNODALPIC.jpg",
         path: "Christian Nodal - Nace Un Borracho.mp3"
     },
     {
         name: "Ya No Somos Ni Seremos",
         artist: "Christian Nodal",
-        image: "CHRISTIAN NODAL PIC.jpg",
+        image: "CHRISTIANNODALPIC.jpg",
         path: "Christian Nodal - Ya No Somos Ni Seremos.mp3"
     },
     {
@@ -247,10 +271,10 @@ let track_list = [
         path: "Myke Towers - Cuando Me Ven (Lyric Video).mp3"
     },
     {
-        name: "La Mejor Versión De Mi",
-        artist: "Natti Natasha X Romeo Santos",
-        image: "ROMENATIPIC.jpg",
-        path: "Natti Natasha X Romeo Santos - La Mejor Versión De Mi (LetraLyrics) Remix.mp3"
+        name: "Atras del Peso",
+        artist: "Mozart La Para x Black Jonas Point",
+        image: "ATRASDELPESOPICCCCC.jpg",
+        path: "Atras del Peso - Mozart La Para x Black Jonas Point.mp3"
     },
     {
         name: "34.PFA",
@@ -263,18 +287,6 @@ let track_list = [
         artist: "Myke Towers",
         image: "1MYKEPIC1.jpg",
         path: "Myke Towers - Jugador Franquicia (Lyric Video).mp3"
-    },
-    {
-        name: "Con Quién Te Olvido",
-        artist: "Ala Jaza",
-        image: "ALAJAPICCCC.jpg",
-        path: "Ala Jaza - Con Quién Te Olvido.mp3"
-    },
-    {
-        name: "TU NO CORRE",
-        artist: "SUJETO ORO 24",
-        image: "SUJETOPICCCC222222.jpg",
-        path: "TU NO CORRE - SUJETO ORO 24.mp3"
     },
     {
         name: "Tú No Ta'",
@@ -293,6 +305,12 @@ let track_list = [
         artist: "JAMBY EL FAVO",
         image: "JAMBYPIC.jpg",
         path: "Jamby El Favo - Una Vela (Video Oficial).mp3"
+    },
+    {
+        name: "La Mejor Versión De Mi",
+        artist: "Natti Natasha X Romeo Santos",
+        image: "ROMENATIPIC.jpg",
+        path: "Natti Natasha X Romeo Santos - La Mejor Versión De Mi (LetraLyrics) Remix.mp3"
     },
     {
         name: "La Diabla",
@@ -557,24 +575,6 @@ let track_list = [
         artist: "Dei V ft Myke Towers",
         image: "TrendiDeiviTowerPic.jpg",
         path: "Dei V, Myke Towers - Trending Remix (LetraLyrics).mp3"
-    },
-    {
-        name: "No te contaron mal",
-        artist: "Christian Nodal",
-        image: "notecontaronmal.jpg",
-        path: "Christian Nodal - No Te Contaron Mal (Audio).mp3"
-    },
-    {
-        name: "La gloria eres tu",
-        artist: "Luis Miguel",
-        image: "lusimiguel2.jpg",
-        path: "Luis Miguel - La Gloria Eres Tú (Video Con Letra).mp3"
-    },
-    {
-        name: "Adios Amor",
-        artist: "Chistian Nodal",
-        image: "notecontaronmal.jpg",
-        path: "Christian Nodal - Adiós Amor (Audio).mp3"
     },
     {
         name: "BOBO",
