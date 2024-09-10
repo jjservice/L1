@@ -290,6 +290,7 @@ body{
         transition: 0s;
     }
     .dropdown a{
+        box-shadow: 2px 3px 10px gold;
         font-size: 20px;
         text-align: center;
         width: 100%;
@@ -402,6 +403,18 @@ body{
       transition: 1s;
     }
     .li4 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .logo-tiktok{
+      font-size: 25px;
+      color:beige;
+      box-shadow: 2px 3px 10px gold;
+      border-radius: 50%;
+    }
+    .logo-tiktok:hover{
       background-color: gold;
       color: beige;
       text-shadow: 2px 2px 10px goldenrod;
