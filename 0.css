@@ -297,7 +297,7 @@ body{
         display: block;
         color: black;
         text-decoration: none;
-        padding: 10px 15px;
+        padding: 5px 5px;
         transition: 0s;
     }
     .dropdown .content{
@@ -357,6 +357,20 @@ body{
       border-radius: 20px;
       
     }
+    .li3 a{
+      background-image: url(NETFLIXPIC.png);
+      background-position: center;
+      background-size: cover;
+      border-radius: 20px;
+      
+    }
+    .li4 a{
+      background-image: url(PLUTOTVPIC.jpg);
+      background-position: center;
+      background-size: cover;
+      border-radius: 20px;
+      
+    }
     .li a:hover{
       background-color: gold;
       color: beige;
@@ -380,4 +394,16 @@ body{
       color: goldenrod;
       transition: 0.5s;
 
+    }
+   .li3 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .li4 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
     }
