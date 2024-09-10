@@ -97,6 +97,12 @@ let track_list = [
         path: "Myke Towers - Alto Riesgo.mp3"
     },
     {
+        name: "PUESTO PA' GUERRIAL",
+        artist: "Bad Bunny x Myke Towers",
+        image: "BADMYKEPIC.jpg",
+        path: "Bad Bunny x Myke Towers - PUESTO PA' GUERRIAL.mp3"
+    },
+    {
         name: "Joven Leyenda",
         artist: "Myke Towers",
         image: "MYKEPIC3333.jpg",
