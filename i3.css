@@ -16,6 +16,9 @@ body {
   
   hr {
     margin: 1.2em 0;
+    font-weight: bold;
+    color: goldenrod;
+    text-shadow: 2px 2px 4px darkmagenta;
   }
   
   input, button{
@@ -122,5 +125,22 @@ b p{
  }
  .span1{
     text-shadow: 2px 2px 4px gold;
+ }
+ #submit{
+   background-color: darkmagenta;
+   color: beige;
+   text-shadow: 2px 2px 4px gold;
+   font-weight: bold;
+   border: 2px solid gold;
+   font-size: 16px;
+   margin: 2px 2px;
+   background-image: url();
+   cursor: pointer;
+   border-radius: 15px;
+   width: 5%;
+ }
+ #submit:hover{
+   background-color: goldenrod;
+   color: black;
  }
 
