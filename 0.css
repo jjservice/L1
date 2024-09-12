@@ -260,10 +260,13 @@ body{
         left: 330px;
       }
       .toggle-btn:hover{
-        transition: .5s;
-        color: darkmagenta;
-        border-radius: 20px;
-      }
+          color: darkmagenta;
+          text-shadow: 2px 2px 4px gold;
+          box-shadow: 3px 3px 10px darkmagenta;
+          transform: scale(1.05);
+          transition: 0s;
+          border-radius: 20px;
+        }
       #sidebar.active {
         left: 0%;
       }
@@ -344,12 +347,15 @@ body{
         display: block;
     }
     .dropdown:hover button{
-        color: darkmagenta;
-        text-shadow: 2px 2px 4px gold;
-        transition: 0.5s;
+      color: darkmagenta;
+      text-shadow: 2px 2px 4px gold;
+      box-shadow: 3px 3px 10px darkmagenta;
+      transform: scale(1.05);
+      transition: 0s;
+      border-radius: 20px;
     }
     .dropdown a:hover{
-        background-color: gold;
+        background-color:gold;
         transition: 1s;
     }
     .g-btn:hover{
@@ -516,5 +522,35 @@ body{
       color: beige;
       text-shadow: 2px 2px 10px goldenrod;
       transition: 1s;
+    }
+    .li10 a{
+      text-align: center;
+      background-image: url(HIPHOPPIC.jpg);
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+    }
+    .li10 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .home-btn button{
+      color: gold;
+      text-shadow: 2px 2px 10px gold;
+      font-size: 30px;
+      background-image: url(lollipop_4444GIF.gif);
+      background-position: center;
+      background-size: cover;
+      box-shadow: 2px 4px 10px darkmagenta;
+      border-radius: 10px;
+      border: 2px solid gold;
+    }
+    .home-btn,button:hover{
+     color: darkmagenta;
+     text-shadow: 2px 2px 10px gold;
+   
     }
     
