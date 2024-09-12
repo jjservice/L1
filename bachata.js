@@ -25,22 +25,16 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Space Song",
-        artist: "Beach House",
-        image: "BeachHPIC.jpg",
-        path: "Beach House - Space Song (1).mp3"
+        name: "Mi Santa",
+        artist: "Romeo Santos",
+        image: "ROMEOPICCCCCC.jpg",
+        path: "Romeo Santos - Mi Santa.mp3"
     },
     {
         name: "Tres Veces",
         artist: "Yoskar Sarante",
         image: "YoskarPIC.jpg",
         path: "Tres Veces - Yoskar Sarante (Audio Bachata).mp3"
-    },
-    {
-        name: "Mi Santa",
-        artist: "Romeo Santos",
-        image: "ROMEOPICCCCCC.jpg",
-        path: "Romeo Santos - Mi Santa.mp3"
     },
     {
         name: "Soberbio",

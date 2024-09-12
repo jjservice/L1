@@ -1,0 +1,467 @@
+body{
+    height: 100dvh;
+    position: center;
+    background-color: #151618;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    border: 20px solid #151618;
+    box-shadow: 2px 2pc 4px gold;
+    border-radius: 50px;
+    font-size: 100%;
+    background-color: darkmagenta;
+    
+    /* Smoothly transition the background color */
+    transition: background-color .5s;
+    align-content: center;
+    font-family:'Times New Roman', Times, serif
+    }
+    h6{
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        text-shadow: 2px 3px 4px gold;
+        transition: background-color .5s;
+       }
+       h1{
+        font-weight: bold;
+        font-size: 80px;
+        color: white;
+        text-shadow: 2px 2px 4px gold;
+        border: 1px solid gold;
+        box-shadow: 2px 4px 10px gold;
+        background-color: transparent;
+        border-radius: 50px;
+        letter-spacing: 2px; 
+       }
+
+    /* Using flex with the column direction to
+    align items in a vertical direction */
+    .player {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px gold;
+    transition: background-color .5s;
+    }
+    
+    .details {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    text-shadow: 2px 2px 4px gold;
+    }
+    
+    .track-art {
+    height: 250px;
+    width: 250px;
+    background-image: URL(
+        "https://source.unsplash.com/Qrspubmx6kE/640x360");
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    }
+    .track-art{
+        box-shadow: 2px 2px 4px goldenrod;
+        border: 0.8em #171a1d solid;
+        box-shadow: 0.8em 0.8em 1.8em #151618,
+                    -0.8em -0.8em 1em #33353b;
+    }
+    .track-art:hover{
+        box-shadow: 1px 2pc 1px goldenrod;
+        transform: scale(1.05);
+    }
+    
+    /* Changing the font sizes to suitable ones */
+    .now-playing {    
+    font-size: 1.3rem;
+    color: white;
+    }
+    
+    .track-name {
+    font-weight: bold;
+    text-shadow: 2px 5px 4px gold;    
+    font-size: 3.5rem;
+    }
+    
+    .track-artist {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px gold;
+    }
+    
+    /* Using flex with the row direction to
+    align items in a horizontal direction */
+    .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+    
+    .playpause-track,
+    .prev-track,
+    .next-track {
+    padding: 25px;
+    opacity: 0.8;
+    
+    /* Smoothly transition the opacity */
+    transition: opacity .2s;
+    }
+    
+    /* Change the opacity when mouse is hovered */
+    .playpause-track:hover,
+    .prev-track:hover,
+    .next-track:hover {
+    opacity: 1.0;
+    }
+    
+    /* Define the slider width so that it scales properly */
+    .slider_container {
+    width: 75dvh;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    /* Modify the appearance of the slider */
+    .seek_slider, .volume_slider {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: black;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    }
+    
+    /* Modify the appearance of the slider thumb */
+    .seek_slider::-webkit-slider-thumb,
+    .volume_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: white;
+    cursor: pointer;
+    border-radius: 50%;
+    }
+    
+    /* Change the opacity when mouse is hovered */
+    .seek_slider:hover,
+    .volume_slider:hover {
+    opacity: 1.0;
+    }
+    
+    .seek_slider {
+    width: 60%;
+    }
+    
+    .volume_slider {
+    width: 30%;
+    }
+    
+    .current-time,
+    .total-duration {
+    padding: 10px;
+    }
+    
+    i.fa-volume-down,
+    i.fa-volume-up {
+    padding: 10px;
+    }
+    
+    /* Change the mouse cursor to a pointer
+    when hovered over */
+    i.fa-play-circle,
+    i.fa-pause-circle,
+    i.fa-step-forward,
+    i.fa-step-backward {
+    cursor: pointer;
+    color: black;
+    }
+    .navbar{
+        background-image: url(MADDANCINGPIC.gif);
+        background-position: top;
+        border-radius: 10px;
+        box-shadow:2px 2px 4px gold;
+        border:2px solid #33353b;
+        padding: 2%;
+        bottom: 0%; 
+    }
+    .navbar1{
+        background-image: url(BRANDSGIFF1.gif);
+        background-position: center;
+        border-radius: 10px;
+        border:2px solid gold;
+        box-shadow:2px 2px 4px gold;
+        padding: 1%;
+        bottom: 0%; 
+    }
+    .navbar2{
+        background-image: url(MADDANCINGPIC.gif);
+        background-position: center;
+        border-radius: 10px;
+        box-shadow:2px 2px 4px gold;
+        border:2px solid #33353b;
+        padding-top: 3%;
+        bottom: 0%; 
+    
+    }
+
+      #sidebar{
+        font-weight: bold;
+        position: absolute;
+        width: 300px;
+        height: 60%;
+        border-radius: 30px;
+        left: -300px;
+        transition: .4s;
+      }
+
+      #sidebar ul li{
+        border:2px solid gold;
+        border-radius: 20%;
+        background-image: url(lollipop_4444GIF.gif);
+        background-position: top;
+        background-size: cover;
+        list-style: none;
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 5px 5px;
+        text-shadow: 2px 2px 4px gold;
+        a{
+            color: white;
+          }
+        
+      }
+      
+
+      #sidebar .toggle-btn {
+        position: absolute;
+        left: 330px;
+      }
+      .toggle-btn:hover{
+        transition: .5s;
+        background-color: gold;
+        border-radius: 20px;
+        color: white;
+      }
+      #sidebar.active {
+        left: 0%;
+      }
+      
+      .span1{
+        font-size: 50px;
+        position: relative;
+        color: gold;
+        box-shadow:2px 3px 4px gold;
+        border: 4px solid goldenrod;
+        border-radius: 20px;
+        background-image: url(lollipop_4444GIF.gif);
+        background-position: center;
+        background-size: cover;
+      }
+      h6, .icon{
+            color: white;
+            box-shadow: 2px 2px 4px gold;
+            border-radius: 25px;
+            background-image: url(lollipop_4444GIF.gif);
+            background-size: cover;
+            background-position: center;
+          
+      }
+
+      .dropdown{
+        align-items: center;
+        align-content: space-between;
+        display: inline-block;
+    }
+    .dropdown.active{
+      right:0%;
+    }
+    .dropdown button{
+        object-position: left;
+        color: white;
+        box-shadow: 2px 2px 4px gold;
+        font-size: 30px;
+        font-weight:bolder;
+        background-image: url(lollipop_4444GIF.gif);
+        background-position: center;
+        background-size: cover;
+        color: gold;
+        padding: 10px 15px;
+        border: 4px solid goldenrod;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 0s;
+    }
+    .dropdown a{
+        box-shadow: 2px 3px 10px gold;
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        height: 10dvh;
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 5px 5px;
+        transition: 0s;
+    }
+    .dropdown .content{
+        transition-duration: 0s;
+        display: none;
+        position: absolute;
+        background-color: transparent;
+        border-radius: 50%;
+        min-width: 100px;
+        box-shadow: 2px 3px 5px hsla(0, 0%, 0%, 0.8);
+    }
+    .dropdown:hover .content{
+        display: block;
+    }
+    .dropdown:hover button{
+        background-color: gold;
+        transition: 1s;
+    }
+    .dropdown a:hover{
+        background-color: gold;
+        transition: 1s;
+    }
+    .g-btn:hover{
+        background-color: gold;
+        color: white;
+    }
+    .dropdown a{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        color: gold;
+        text-shadow:2px 2px 6px darkmagenta;
+        border: 2px solid gold;
+        box-shadow: 2px 4px 10px black;
+        background-color: transparent;
+        border-radius: 20px;
+        text-decoration: none;
+        display: block;
+        z-index: 999;
+    }
+    .li a{
+      background-image: url(lollipop_4444GIF.gif);
+      background-position: top;
+      background-size: cover;
+      border-radius: 20px;
+    }
+    .li1 a{
+      background-image: url(espapic2.png);
+      background-position: center;
+      background-size: cover;
+      border-radius: 20px;
+    }
+    .li2 a{
+      background-image: url(NBC2pic.png);
+      background-position: center;
+      background-size: cover;
+      border-radius: 20px;
+      
+    }
+    .li3 a{
+      background-image: url(NETFLIXPIC.png);
+      background-position: center;
+      background-size: cover;
+      border-radius: 20px;
+      
+    }
+    .li4 a{
+      background-image: url(PLUTOTVPIC.jpg);
+      background-position: center;
+      background-size: cover;
+      border-radius: 20px;
+      
+    }
+    li i:hover{
+      color: darkmagenta;
+      transition: 0.5s;
+
+    }
+    .li a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .li1 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .li2 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+
+   .li3 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .li4 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .logo-tiktok{
+      font-size: 25px;
+      color:beige;
+      box-shadow: 2px 3px 10px gold;
+      border-radius: 50%;
+    }
+    .logo-tiktok:hover{
+      background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .li5 a{
+      background-image: url(ITUNESP2.jpg);
+      background-position: center;
+      background-size: cover;
+      border-radius: 20px;
+      
+    }
+    .li5 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .home-btn button{
+        color: gold;
+        text-shadow: 2px 2px 10px gold;
+        font-size: 30px;
+        background-image: url(lollipop_4444GIF.gif);
+        background-position: center;
+        background-size: cover;
+        box-shadow: 2px 4px 10px darkmagenta;
+        border-radius: 10px;
+        border: 2px solid gold;
+      }
+      .home-btn,button:hover{
+       color: darkmagenta;
+       text-shadow: 2px 2px 10px gold;
+     
+      }

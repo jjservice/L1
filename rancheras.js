@@ -25,12 +25,6 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Space Song",
-        artist: "Beach House",
-        image: "BeachHPIC.jpg",
-        path: "Beach House - Space Song (1).mp3"
-    },
-    {
         name: "No te contaron mal",
         artist: "Christian Nodal",
         image: "notecontaronmal.jpg",

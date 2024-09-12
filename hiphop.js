@@ -25,46 +25,208 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "No podras escapar",
-        artist: "Willie Gonzalez",
-        image: "WILLIE2PIC.jpg",
-        path: "No Podrás ESCAPAR De Mi  - Willie Gonzalez [Video Oficial].mp3"
-    },    
-    {
-        name: "Algo Facil De Olvidar",
-        artist: "VICTOR WAILL",
-        image: "VICTORWPICCC.jpg",
-        path: "VICTOR WAILL - Algo Facil De Olvidar.mp3"
+        name: "Alto Riesgo",
+        artist: "Myke Towers",
+        image: "MYKEPIC3333.jpg",
+        path: "Myke Towers - Alto Riesgo.mp3"
     },
     {
-        name: "Que voy hacer",
-        artist: "Raulin Rosendo",
-        image: "ROSENDOPIC.jpg",
-        path: "Que Voy Hacer.mp3"
+        name: "Joven Leyenda",
+        artist: "Myke Towers",
+        image: "MYKEPIC3333.jpg",
+        path: "Myke Towers - Joven Leyenda.mp3"
     },
     {
-        name: "Como da vuelta la vida",
-        artist: "La Franquicia",
-        image: "COMODAVUELTASPIC.jpg",
-        path: "Como da Vueltas la Vida.mp3"
+        name: "Dígitos",
+        artist: "Arcangel X Myke Towers",
+        image: "MIKEARCPICCC.jpg",
+        path: "Arcangel, Myke Towers -Dígitos.mp3"
     },
     {
-        name: "Deseo",
-        artist: "Raulin Rosendo",
-        image: "ROSENDOPIC.jpg",
-        path: "Deseo.mp3"
+        name: "Los Angeles",
+        artist: "Myke Towers",
+        image: "MYKEPIC3333.jpg",
+        path: "Myke Towers - Los Angeles.mp3"
+    }, 
+    {
+        name: "Atras del Peso",
+        artist: "Mozart La Para x Black Jonas Point",
+        image: "ATRASDELPESOPICCCCC.jpg",
+        path: "Atras del Peso - Mozart La Para x Black Jonas Point.mp3"
     },
     {
-        name: "Ironia",
-        artist: "Frankie Ruiz",
-        image: "ironiapic.jpg",
-        path: "Ironía.mp3"
+        name: "Ajedrez",
+        artist: "Myke Towers",
+        image: "1MYKEPIC1.jpg",
+        path: "Myke Towers - Ajedréz (Lyric Video) (1).mp3"
     },
     {
-        name: " Quiero ser tuyo",
-        artist: "Tito Rojas",
-        image: "titoamarmepic.jpg",
-        path: "QUIERO Ser Tuyo  - Tito Rojas [Lyric Video].mp3"
+        name: "Cuando me Ven",
+        artist: "Myke Towers",
+        image: "1MYKEPIC1.jpg",
+        path: "Myke Towers - Cuando Me Ven (Lyric Video).mp3"
+    },
+    {
+        name: "34.PFA",
+        artist: "Myke Towers",
+        image: "1MYKEPIC1.jpg",
+        path: "Myke Towers - PFA (Lyric Video).mp3"
+    },
+    {
+        name: "Tú No Ta'",
+        artist: "Lapiz Conciente",
+        image: "LAPIZPIC222222.jpg",
+        path: "Lapiz Conciente - Tú No Ta'.mp3"
+    },
+    {
+        name: "9 Dias",
+        artist: "Lapiz Conciente",
+        image: "lapizPi.jpg",
+        path: "Lapiz Conciente - 9 Dias.mp3"
+    },
+    {
+        name: "Una Vela",
+        artist: "JAMBY EL FAVO",
+        image: "JAMBYPIC.jpg",
+        path: "Jamby El Favo - Una Vela (Video Oficial).mp3"
+    },
+    {
+        name: "Que Esta Pasando",
+        artist: "El Jincho",
+        image: "JINCHOPIC.jpg",
+        path: "El Jincho - Que Esta Pasando (VIDEOCLIP OFICIAL).mp3"
+    },
+    {
+        name: "EL NUEVO PAPA",
+        artist: "QUIMICO ULTRA MEGA",
+        image: "QUIMICOPIC.jpg",
+        path: "QUIMICO_NUEVO_PAPA.mp3"
+    },
+    {
+        name: "Demasiado Yagala",
+        artist: "QUIMICO ULTRA MEGA",
+        image: "QUIMICOPIC.jpg",
+        path: "Quimico Ultra Mega - Demasiado Yagala (Official Music Video).mp3"
+    },
+    {
+        name: "Living Life",
+        artist: "Miky Woodz",
+        image: "MIKYWOODS.jpg",
+        path: "Miky Woodz  - Living Life (Video Oficial).mp3"
+    },
+    {
+        name: "Rest in Peace",
+        artist: "Darell, Ñengo Flow",
+        image: "NENGODARPIC.jpg",
+        path: "Darell, Ñengo Flow - Rest in Peace (Official Video).mp3"
+    },
+    {
+        name: "Active",
+        artist: "BigXthaPlug",
+        image: "BigXactivePic.jpg",
+        path: "BigXthaPlug - Active (Official Music Video).mp3"
+    },
+    {
+        name: "Mr.Trouble",
+        artist: "BigXThaPlug",
+        image: "BIGXPICC.jpg",
+        path: "BigXThaPlug _Mr.Trouble.mp3"
+    },
+    {
+        name: "Whip It",
+        artist: "BigXThaPlug",
+        image: "BigXactivePic.jpg",
+        path: "BigXthaPlug - Whip It (Official Audio).mp3"
+    },
+    {
+        name: "Back on my Bs",
+        artist: "BigXthaPlug",
+        image: "backbspic.jpg",
+        path: "BigXthaPlug  - Back On My BS [Official Lyric Video].mp3"
+    },
+    {
+        name: "TA TO SALDO",
+        artist: "Miky Woodz ft Myke Towers",
+        image: "TATOSALDOPIC.jpg",
+        path: "Miky Woodz , Myke Towers - Ta To Saldo (Video Oficial).mp3"
+    },
+    {
+        name: "Jovenes Millonarios",
+        artist: "Eladio Carrion ft Myke Towers",
+        image: "JMILLONARIOSPIC.jpg",
+        path: "Eladio Carrión, Myke Towers - Jóvenes Millonarios (Video Oficial).mp3"
+    },
+    {
+        name: "Fast Money",
+        artist: "Ñengo Flow ft Myke Towers",
+        image: "FASTMONEYPC.jpg",
+        path: "Ñengo Flow x Myke Towers - Fast Money [Official Video].mp3"
+    },
+    {
+        name: "512",
+        artist: "Mora Ft Jhay Cortez",
+        image: "Mora-JhayPIC.jpg",
+        path: "Mora x Jhay Cortez - 512 (Video Oficial).mp3"
+    },
+    {
+        name: "OBVIO",
+        artist: "Myke Towers",
+        image: "MykeObvioPIC.jpg",
+        path: "Myke Towers - OBVIO (Visualizer).mp3"
+    },
+    {
+        name: "Kame Hame",
+        artist: "Arcangel",
+        image: "arcangelPic.jpg",
+        path: "Arcangel - Kame Hame  SR. SANTOS.mp3"
+    },
+    {
+        name: "Quien Va a Frontiar",
+        artist: "Ozuna ft Young Chimi",
+        image: "OZUCHIMIPIC.jpg",
+        path: "Ozuna, YOVNGCHIMI - Quien Va a Frontiar (Video Oficial).mp3"
+    },
+    {
+        name: "Trending",
+        artist: "Dei V ft Myke Towers",
+        image: "TrendiDeiviTowerPic.jpg",
+        path: "Dei V, Myke Towers - Trending Remix (LetraLyrics).mp3"
+    },
+    {
+        name: "La Música No Miente",
+        artist: "Lapiz Conciente",
+        image: "lapizPi.jpg",
+        path: "Lapiz Conciente - La Música No Miente.mp3"
+    },
+    {
+        name: "Million Dollar Baby",
+        artist: "Tommy Richman",
+        image: "milliondollarpic.jpg",
+        path: "Tommy Richman - MILLION DOLLAR BABY (Official Music Video).mp3"
+    },
+    {
+        name: "Respeten o Respeten",
+        artist: "Maiky el antivirus musical",
+        image: "maikyima3.jpg",
+        path: "Maiky El Antivirus Musical-Respeten o Respeten(H M-2018).mp3"
+    },
+    {
+        name: "Mi Progreso",
+        artist: "Maiky el antivirus musical",
+        image: "miprogresopic.jpg",
+        path: "Mi progreso-Maiky el antivirus musical .mp3"
+    },
+    {
+        name: "Megvtron",
+        artist: "YoungChimi",
+        image: "younChimmi.jpg",
+        path: "YOVNGCHIMI - Megvtron (Official Visualizer).mp3"
+    },
+    {
+        name: "Quienes son",
+        artist: "C-Dobleta",
+        image: "quieneson.jpg",
+        path: "QUIENES SON- CDOBLETA.mp3"
     },
 ];
 

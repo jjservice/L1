@@ -25,12 +25,6 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Past Lives",
-        artist: "SapientDream",
-        image: "pastlivesPIC.jpg",
-        path: "sapientdream - Past Lives (Lyrics).mp3"
-    },
-    {
         name: "Si antes te hubiera conocido",
         artist: "Karol G",
         image: "MECUROPIC.jpg",
