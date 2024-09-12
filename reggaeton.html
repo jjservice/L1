@@ -1,52 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>LOLLIPOP MAIN</title>
+<title>LollipoP</title>
 <!-- Load FontAwesome icons -->
 <link rel="stylesheet"
 		href=
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
 <!-- Load the custom CSS style file -->
-<link rel="stylesheet" type="text/css" href="0.css">
+<link rel="stylesheet" type="text/css" href="reggaeton.css">
 <body>
 	<h1>LOLLI<ion-icon name="pin-outline"></ion-icon>POP</h1>
-	<h6>JJPoweredIT<i><ion-icon name="bonfire" class="icon" id="icon"></ion-icon></i></h6>
-
-    <div class="dropdown">
-        <button><ion-icon name="boat"></ion-icon></button>
-        <div class="content">
-
-            <li class="li1"><a href="https://www.espn.com/">SPORTS</a></li>
-            <li class="li2"><a href="https://www.nbcnews.com/">NEWS</a></li>
-			<li class="li3"><a href="https://www.netflix.com/browse">NETFLIX</a></li>
-			<li class="li4"><a href="https://pluto.tv/us/live-tv/64b585f84ea480000838e446">FREE TV</a></li>
-			<li class="li5"><a href="i3.html">ITUNES<span><ion-icon name="logo-apple"></ion-icon></span>SEARCH</a></li>
-        </div>
-    </div>
-	<script>
-        function show() {
-          document.getElementById('dropdown').classList.toggle('active');
-        }
-      </script> 
-
-		<div class="dropdown">
-			<button><ion-icon name="musical-notes"></ion-icon></button>
-			<div class="content">
-	
-				<li class="li"><a href="2.html">DJ ADONIS</a></li>
-				<li class="li6"><a href="salsa.html">SALSA</a></li>
-				<li class="li7"><a href="bachata.html">BACHATA</a></li>
-				<li class="li8"><a href="reggaeton.html">REGGAETON</a></li>
-				<li class="li9"><a href="rancheras.html">RANCHERAS</a></li>
-
-			</div>
-		</div>
-		<script>
-			function show() {
-			  document.getElementById('dropdown').classList.toggle('active');
-			}
-		  </script>    
-
+	<h6 class="genre" id="genre">REGGAETON<i><br><ion-icon name="radio"></ion-icon></h6>
+       
+        <div class="home-btn">
+            <a href="1.html"><button id="back"><ion-icon name="home-sharp"></ion-icon></button>
+              </a>
+            </div>
+            
     <div id="sidebar">
         <div class="toggle-btn" onclick ="show()">
 			<span class="span1"><ion-icon name="menu"></ion-icon></span>
@@ -125,7 +95,7 @@
 
 
 <!-- Load the main script for the player -->
-<script src="0.js"></script>
+<script src="reggaeton.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>

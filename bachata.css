@@ -9,9 +9,7 @@ body{
     box-shadow: 2px 2pc 4px gold;
     border-radius: 50px;
     font-size: 100%;
-    background-image: url(lollipop_4444GIF.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: darkmagenta;
     
     /* Smoothly transition the background color */
     transition: background-color .5s;
@@ -27,22 +25,15 @@ body{
         transition: background-color .5s;
        }
        h1{
-        background-image: url(lollipop_4444GIF.gif);
-        background-position: center;
-        background-size: cover;
         font-weight: bold;
         font-size: 80px;
         color: white;
-        text-shadow: 2px 2px 10px gold;
+        text-shadow: 2px 2px 4px gold;
         border: 1px solid gold;
-        box-shadow: 2px 4px 4px gold;
+        box-shadow: 2px 4px 10px gold;
         background-color: transparent;
         border-radius: 50px;
-        letter-spacing: 2px;
-       }
-       h1:hover{
-        color: darkmagenta;
-        text-shadow: 2px 2px 4px gold;
+        letter-spacing: 2px; 
        }
 
     /* Using flex with the column direction to
@@ -261,8 +252,9 @@ body{
       }
       .toggle-btn:hover{
         transition: .5s;
-        color: darkmagenta;
+        background-color: gold;
         border-radius: 20px;
+        color: white;
       }
       #sidebar.active {
         left: 0%;
@@ -279,20 +271,14 @@ body{
         background-position: center;
         background-size: cover;
       }
-      .span1:hover{
-        color: darkmagenta;
-        text-shadow: 2px 2px 4px gold;
-        box-shadow: 3px 3px 10px darkmagenta;
-        transform: scale(1.05);
-        transition: 0s;
-      }
       h6, .icon{
-        color: white;
-        box-shadow: 2px 2px 4px gold;
-        border-radius: 25px;
-        background-image: url(lollipop_4444GIF.gif);
-        background-size: cover;
-        background-position: center;
+            color: white;
+            box-shadow: 2px 2px 4px gold;
+            border-radius: 25px;
+            background-image: url(lollipop_4444GIF.gif);
+            background-size: cover;
+            background-position: center;
+          
       }
 
       .dropdown{
@@ -344,9 +330,8 @@ body{
         display: block;
     }
     .dropdown:hover button{
-        color: darkmagenta;
-        text-shadow: 2px 2px 4px gold;
-        transition: 0.5s;
+        background-color: gold;
+        transition: 1s;
     }
     .dropdown a:hover{
         background-color: gold;
@@ -370,13 +355,8 @@ body{
         display: block;
         z-index: 999;
     }
-    .dropdown li a:hover{
-      color: beige;
-      text-shadow: 3px 2px 10px gold;
-      background-color: transparent;
-    }
     .li a{
-      background-image: url(ADONISALAPIC.jpg);
+      background-image: url(lollipop_4444GIF.gif);
       background-position: top;
       background-size: cover;
       border-radius: 20px;
@@ -469,52 +449,20 @@ body{
       text-shadow: 2px 2px 10px goldenrod;
       transition: 1s;
     }
-    .li6 a{
-      background-image: url(SALSAPIC2.jpg);
-      background-position: center;
-      background-size: cover;
-      border-radius: 20px;
-    }
-    .li6 a:hover{
-      background-color: gold;
-      color: beige;
-      text-shadow: 2px 2px 10px goldenrod;
-      transition: 1s;
-    }
-    .li7 a{
-      background-image: url(BACHATAPIC.jpg);
-      background-position: center;
-      background-size: cover;
-      border-radius: 20px;
-    }
-    .li7 a:hover{
-      background-color: gold;
-      color: beige;
-      text-shadow: 2px 2px 10px goldenrod;
-      transition: 1s;
-    }
-    .li8 a{
-      background-image: url(REGGAETONPICCC11.jpg);
-      background-position: center;
-      background-size: cover;
-      border-radius: 20px;
-    }
-    .li8 a:hover{
-      background-color: gold;
-      color: beige;
-      text-shadow: 2px 2px 10px goldenrod;
-      transition: 1s;
-    }
-    .li9 a{
-      background-image: url(RANCHERASPIC1.jpg);
-      background-position: top;
-      background-size: cover;
-      border-radius: 20px;
-    }
-    .li9 a:hover{
-      background-color: gold;
-      color: beige;
-      text-shadow: 2px 2px 10px goldenrod;
-      transition: 1s;
-    }
+    .home-btn button{
+        color: gold;
+        text-shadow: 2px 2px 10px gold;
+        font-size: 30px;
+        background-image: url(lollipop_4444GIF.gif);
+        background-position: center;
+        background-size: cover;
+        box-shadow: 2px 4px 10px darkmagenta;
+        border-radius: 10px;
+        border: 2px solid gold;
+      }
+      .home-btn,button:hover{
+       color: darkmagenta;
+       text-shadow: 2px 2px 10px gold;
+     
+      }
     
