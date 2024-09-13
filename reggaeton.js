@@ -31,6 +31,30 @@ let track_list = [
         path: "Myke Towers & Jay Wheeler - AUNQUE LLEGUE OTRO.mp3"
     },
     {
+        name: "District",
+        artist: "Chencho Corleone & Jowell y Randy",
+        image: "chenchopic333.jpg",
+        path: "Chencho Corleone & Jowell y Randy - District.mp3"
+    },
+    {
+        name: "Chencho Corleone X Miky Woodz ",
+        artist: "Impaciente",
+        image: "CHENCHOMIKYIMPAPICC.jpg",
+        path: "Chencho Corleone  Miky Woodz  Impaciente.mp3"
+    },
+    {
+        name: "TORO",
+        artist: "Jowell y Randy",
+        image: "JOWELRANDYPICTORO.jpg",
+        path: "Jowell y Randy - TORO.mp3"
+    },
+    {
+        name: "Welcome to my crib",
+        artist: "Jowell y Randy",
+        image: "RANDYWELCOMEPICCC.jpg",
+        path: "Jowell y Randy - Welcome to my crib.mp3"
+    },
+    {
         name: "Gallery Dept",
         artist: "Myke Towers",
         image: "mykepic2.jpg",
@@ -227,6 +251,12 @@ let track_list = [
         artist: "Jhay Cortez",
         image: "jhayPic.jpg",
         path: "Como se siente jhay cortez (audio oficial).mp3"
+    },
+    {
+        name: "De PG13 A Triple X",
+        artist: "Alexis Y Fido ft. Miky Woodz",
+        image: "ALEXISMIKIPICCC.jpg",
+        path: "Alexis Y Fido - De PG13 A Triple X  ft. Miky Woodz.mp3"
     },
 ];
 

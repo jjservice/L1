@@ -54,6 +54,42 @@ let track_list = [
         image: "ALAJAPICCCC.jpg",
         path: "Ala Jaza - Con Quién Te Olvido.mp3"
     },
+    {
+        name: "Tu Mayimbe",
+        artist: "Sujeto Oro 24 ",
+        image: "SUJETOPIC3333.jpg",
+        path: "sujeto Oro 24 - Tu Mayimbe.mp3"
+    },
+    {
+        name: "Misericordia",
+        artist: "Ala Jaza",
+        image: "alajazapic222.jpg",
+        path: "Ala Jaza - Misericordia.mp3"
+    },
+    {
+        name: "SUJETO ORO 24",
+        artist: "CUIDATE",
+        image: "sujetocuidatepiiccc.jpg",
+        path: "SUJETO ORO 24 - CUIDATE.mp3"
+    },
+    {
+        name: "Tattoo",
+        artist: "Ala Jaza",
+        image: "alajazapic44444.jpg",
+        path: "Ala Jaza - Tattoo.mp3"
+    },
+    {
+        name: "No me hable de Gente",
+        artist: "Sujeto Oro 24",
+        image: "SUJETOPICCCC222222.jpg",
+        path: "Sujeto Oro 24 - No me hable de Gente.mp3"
+    },
+    {
+        name: "Weje Weje",
+        artist: "Sujeto Oro 24",
+        image: "sujetoPic.jpg",
+        path: "Sujeto Oro 24 - Weje Weje.mp3"
+    },
 ];
 
 
