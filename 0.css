@@ -610,7 +610,8 @@ body{
       transition: background-color 0.5s ease;
     }
     .content::-webkit-scrollbar-thumb{
-      background: #171a1d;    
+      background: linear-gradient(darkmagenta,black,blue);
+      border: 2px solid gold;    
     }
     
     
