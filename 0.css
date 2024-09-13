@@ -326,12 +326,12 @@ body{
         box-shadow: 2px 3px 10px gold;
         font-size: 20px;
         text-align: center;
-        width: 100%;
+        width: 175px;
         height: 10dvh;
         display: block;
         color: black;
         text-decoration: none;
-        
+        padding: 5px 5px;
         transition: 0s;
     }
     .dropdown .content{
@@ -340,6 +340,7 @@ body{
         position: absolute;
         background-color: transparent;
         width: 100%;
+
         box-shadow: 2px 3px 5px hsla(0, 0%, 0%, 0.8);
     }
     .dropdown:hover .content{
@@ -567,7 +568,7 @@ body{
       transition: 1s;
     }
     .content{
-      height: 40dvh;
+      height: 35%;
       max-width: 200px;
       overflow-x: scroll;
       overflow-block: clip;
