@@ -25,208 +25,34 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "AUNQUE LLEGUE OTRO",
-        artist: "Myke Towers & Jay Wheeler",
-        image: "mykejaypic.jpg",
-        path: "Myke Towers & Jay Wheeler - AUNQUE LLEGUE OTRO.mp3"
+        name: "Si antes te hubiera conocido",
+        artist: "Karol G",
+        image: "MECUROPIC.jpg",
+        path: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
     },
     {
-        name: "Gallery Dept",
-        artist: "Myke Towers",
-        image: "mykepic2.jpg",
-        path: "Myke Towers - Gallery Dept.mp3"
+        name: "BOBO",
+        artist: "Sujeto",
+        image: "sujetoPic.jpg",
+        path: "SUJETO ORO 24 - BOBO.mp3"
     },
     {
-        name: "Boomerang",
-        artist: "Sech ",
-        image: "sechpic2.jpg",
-        path: "Sech - Boomerang.mp3"
+        name: "Nadie Se Meta",
+        artist: "Ala Jaza",
+        image: "ALAJAPICCCC.jpg",
+        path: "Ala Jaza - Nadie Se Meta.mp3"
     },
     {
-        name: "X Ti",
-        artist: "Sech",
-        image: "sechpi3.jpg",
-        path: "Sech - X Ti.mp3"
+        name: "TU NO CORRE",
+        artist: "SUJETO ORO 24",
+        image: "SUJETOPICCCC222222.jpg",
+        path: "TU NO CORRE - SUJETO ORO 24.mp3"
     },
     {
-        name: "LOCO X PERREARTE",
-        artist: "Wisin FT Chencho Corleone",
-        image: "CHENCHOWISINPIC.jpg",
-        path: "Wisin, Chencho Corleone - LOCO X PERREARTE.mp3"
-    },
-    {
-        name: "Puro Guayeteo.mp3",
-        artist: "Wisin, Don Omar, Jowell & Randy",
-        image: "GUAYETEOPIC.jpg",
-        path: "Wisin, Don Omar, Jowell & Randy - Puro Guayeteo.mp3"
-    },
-    {
-        name: "Otra Vibra",
-        artist: "Luar La L x Ozuna",
-        image: "LUAROZUNAPIC.jpg",
-        path: "Luar La L x Ozuna - Otra Vibra.mp3"
-    },
-    {
-        name: "Polvo de tu Vida",
-        artist: "J Balvin, Chencho Corleone",
-        image: "CHENCHOJBALVINPIC.jpg",
-        path: "J Balvin, Chencho Corleone - Polvo de tu Vida.mp3"
-    },
-    {
-        name: "Nos Comemos Vivos",
-        artist: "Maluma, Chencho Corleone",
-        image: "CHNCHEMALUPIC.jpg",
-        path: "Maluma, Chencho Corleone - Nos Comemos Vivos.mp3"
-    },
-    {
-        name: "Batman en Can Am",
-        artist: "Arcángel",
-        image: "ARCANGELPIC2.jpg",
-        path: "Arcángel - Batman en Can Am.mp3"
-    },
-    {
-        name: "DON & TEGO",
-        artist: "Myke Towers & Arcangel",
-        image: "MIKEARCPICCC.jpg",
-        path: "Myke Towers & Arcangel - DON & TEGO.mp3"
-    },
-    {
-        name: "MAYOR",
-        artist: "Myke Towers x Yandel",
-        image: "MIKEYANDELP[IC.jpg",
-        path: "MAYOR - Myke Towers & Yandel.mp3"
-    },
-    {
-        name: "Porsche Carrera",
-        artist: "Jhayco, Yandel",
-        image: "JHAYPICCCCC.jpg",
-        path: "JHAYCO, Yandel - Porsche Carrera.mp3"
-    },
-    {
-        name: "Guatauba",
-        artist: "Cosculluela",
-        image: "COSCUPIC222.jpg",
-        path: "Guatauba - Cosculluela.mp3"
-    },    
-    {
-        name: "Celos",
-        artist: "Myke Towers & J Balvin",
-        image: "CELOSPIC.jpg",
-        path: "Myke Towers & J Balvin - Celos.mp3"
-    },
-    {
-        name: "Caramelo(Remix)",
-        artist: "Ozuna ft Myke Towers, Karol G",
-        image: "carameloRPIC.jpg",
-        path: "Ozuna - Caramelo Remix (LetraLyrics) ft. Karol G, Myke Towers.mp3"
-    },
-    {
-        name: "LolliPoP",
-        artist: "Darell",
-        image: "darrellolpic.jpg",
-        path: "Darell - Lollipop (Audio).mp3"
-    },
-    {
-        name: "Piensan",
-        artist: "Myke Towers",
-        image: "mikepiensanpi.jpg",
-        path: "Myke Towers - Piensan (Video Oficial).mp3"
-    },
-    {
-        name: "Tiene Novio",
-        artist: "Sech ft Manuel Turizo",
-        image: "sechManuel.jpg",
-        path: "Sech - Tiene Novio Ft. Manuel Turizo [Audio Oficial].mp3"
-    },
-    {
-        name: "Hey mor",
-        artist: "Ozuna Ft Feid",
-        image: "morpic.jpg",
-        path: "Ozuna, Feid - Hey Mor (Visualizer Oficial)  Ozutochi.mp3"
-    },
-    {
-	    name: "Humo",
-	    artist: "Chencho Corleone, Peso Pluma",
-	    image: "humopic.jpg",
-	    path:"Chencho Corleone, Peso Pluma - HUMO (Official Video).mp3"
-    },
-    {
-        name: "SEXO DESENFRENADO",
-        artist: "Myke Towers",
-        image: "MIKEPIC22222.jpg",
-        path: "Myke Towers - SEXO DESENFRENADO.mp3"
-    },
-    {
-        name: "Inocente",
-        artist: "Myke Towers",
-        image: "INOCENTEMIKEPIC.jpg",
-        path: "Myke Towers - Inocente.mp3"
-    },
-    {
-        name: "Deseo",
-        artist: "Raulin Rosendo",
-        image: "ROSENDOPIC.jpg",
-        path: "Deseo.mp3"
-    },
-    {
-        name: "CON SONIDO",
-        artist: "BULIN 47 X CEKY VICINY",
-        image: "CONSONIDOPIC.jpg",
-        path: "BULIN 47 X CEKY VICINY - CON SONIDO (PROD BREYCO).mp3"
-    },
-    {
-        name: "La Tranza",
-        artist: "Bulin47 X myke towers",
-        image: "TRABULINMIKEPIC.jpg",
-        path: "Bulin 47 x Myke Towers - La Tranza (Video Oficial).mp3"
-    },
-    {
-        name: "Rest in Peace",
-        artist: "Darell, Ñengo Flow",
-        image: "NENGODARPIC.jpg",
-        path: "Darell, Ñengo Flow - Rest in Peace (Official Video).mp3"
-    },
-    {
-        name: "Madura",
-        artist: "Cosculluela FT Bad Bunny",
-        image: "MADURAPIC.jpg",
-        path: "Cosculluela, Bad Bunny - Madura (Video Oficial).mp3"
-    },
-    {
-        name: "Estamos bien",
-        artist: "Darell ft Cosculluela",
-        image: "ESTAMOSBIENPIC.jpg",
-        path: "Darell x Cosculluela - Estamos Bien [Official Video].mp3"
-    },
-    {
-        name: "VAMO A DALE",
-        artist: "Myke Towers ft Cosculluela",
-        image: "1COCUMIKEPIC.jpg",
-        path: "Myke Towers & Cosculluela - VAMO A DARLE (Visualizer).mp3"
-    },
-    {
-        name: "DIABLITA",
-        artist: "Myke Towers ft Youngchimi",
-        image: "DIABLITAPIC.jpg",
-        path: "Myke Towers & Yovngchimi - DIABLITA (Visualizer).mp3"
-    },
-    {
-        name: "Una Locura",
-        artist: "Ozuna FT J Balvin, Chencho Corleone",
-        image: "LOCURAPIC.jpg",
-        path: "Ozuna x J Balvin x Chencho Corleone - Una Locura (Video Oficial).mp3"
-    },
-    {
-        name: "512",
-        artist: "Mora Ft Jhay Cortez",
-        image: "Mora-JhayPIC.jpg",
-        path: "Mora x Jhay Cortez - 512 (Video Oficial).mp3"
-    },
-    {
-        name: "Como se siente",
-        artist: "Jhay Cortez",
-        image: "jhayPic.jpg",
-        path: "Como se siente jhay cortez (audio oficial).mp3"
+        name: "Con Quién Te Olvido",
+        artist: "Ala Jaza",
+        image: "ALAJAPICCCC.jpg",
+        path: "Ala Jaza - Con Quién Te Olvido.mp3"
     },
 ];
 
