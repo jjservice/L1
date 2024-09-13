@@ -25,6 +25,66 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "AUNQUE LLEGUE OTRO",
+        artist: "Myke Towers & Jay Wheeler",
+        image: "mykejaypic.jpg",
+        path: "Myke Towers & Jay Wheeler - AUNQUE LLEGUE OTRO.mp3"
+    },
+    {
+        name: "Gallery Dept",
+        artist: "Myke Towers",
+        image: "mykepic2.jpg",
+        path: "Myke Towers - Gallery Dept.mp3"
+    },
+    {
+        name: "Boomerang",
+        artist: "Sech ",
+        image: "sechpic2.jpg",
+        path: "Sech - Boomerang.mp3"
+    },
+    {
+        name: "X Ti",
+        artist: "Sech",
+        image: "sechpi3.jpg",
+        path: "Sech - X Ti.mp3"
+    },
+    {
+        name: "LOCO X PERREARTE",
+        artist: "Wisin FT Chencho Corleone",
+        image: "CHENCHOWISINPIC.jpg",
+        path: "Wisin, Chencho Corleone - LOCO X PERREARTE.mp3"
+    },
+    {
+        name: "Puro Guayeteo.mp3",
+        artist: "Wisin, Don Omar, Jowell & Randy",
+        image: "GUAYETEOPIC.jpg",
+        path: "Wisin, Don Omar, Jowell & Randy - Puro Guayeteo.mp3"
+    },
+    {
+        name: "Otra Vibra",
+        artist: "Luar La L x Ozuna",
+        image: "LUAROZUNAPIC.jpg",
+        path: "Luar La L x Ozuna - Otra Vibra.mp3"
+    },
+    {
+        name: "Polvo de tu Vida",
+        artist: "J Balvin, Chencho Corleone",
+        image: "CHENCHOJBALVINPIC.jpg",
+        path: "J Balvin, Chencho Corleone - Polvo de tu Vida.mp3"
+    },
+    {
+        name: "Nos Comemos Vivos",
+        artist: "Maluma, Chencho Corleone",
+        image: "CHNCHEMALUPIC.jpg",
+        path: "Maluma, Chencho Corleone - Nos Comemos Vivos.mp3"
+    },
+    {
+        name: "Batman en Can Am",
+        artist: "Arcángel",
+        image: "ARCANGELPIC2.jpg",
+        path: "Arcángel - Batman en Can Am.mp3"
+    },
+    {
         name: "Si antes te hubiera conocido",
         artist: "Karol G",
         image: "MECUROPIC.jpg",

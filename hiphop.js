@@ -25,6 +25,78 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "Solo $exo",
+        artist: "Myke Towers",
+        image: "mykepic2.jpg",
+        path: "Myke Towers - Solo $exo.mp3"
+    },
+    {
+        name: "Pauta y Flow",
+        artist: "Myke Towers",
+        image: "mykepic4.jpg",
+        path: "Myke Towers - Pauta y Flow.mp3"
+    },
+    {
+        name: "777",
+        artist: "Lito Kirino ft. Tali",
+        image: "777PIC.jpg",
+        path: "Lito Kirino - 777 ft. Tali.mp3"
+    },
+    {
+        name: "Drug Dealer",
+        artist: "Ovi x Luar La L",
+        image: "LUAOVIPIC.jpg",
+        path: "Ovi x Luar La L - Drug Dealer.mp3"
+    },
+    {
+        name: "Freestyle 8",
+        artist: "Mandrake",
+        image: "MANDRAKEPIC2.jpg",
+        path: "Mandrake - Freestyle 8.mp3"
+    },
+    {
+        name: "FreeStyle 5",
+        artist: "ManDrake El MaloCorita",
+        image: "MANDRAKEPIC1.jpg",
+        path: "ManDrake El MaloCorita - FreeStyle 5.mp3"
+    },
+    {
+        name: "FreeStyle 4",
+        artist: "Mandrake El Malocorita",
+        image: "MANDRAKEPIC3.jpg",
+        path: "Mandrake El Malocorita - FreeStyle 4.mp3"
+    },
+    {
+        name: "31",
+        artist: "Miky Woodz",
+        image: "MIKYWOODSPIC111.jpg",
+        path: "Miky Woodz - 31.mp3"
+    },
+    {
+        name: "OG CITY",
+        artist: "Miky Woodz",
+        image: "MIKYPIC33333.jpg",
+        path: "Miky Woodz - OG CITY.mp3"
+    },
+    {
+        name: "Drip",
+        artist: "Luar La L & Sinfonico",
+        image: "LUALLPICCC1111.jpg",
+        path: "Luar La L & Sinfonico - Drip.mp3"
+    },
+    {
+        name: "Solo $exo",
+        artist: "Myke Towers",
+        image: "mykepic2.jpg",
+        path: "Myke Towers - Solo $exo.mp3"
+    },
+    {
+        name: "La Pieza",
+        artist: "Luar La L",
+        image: "La Pieza - Luar La L.mp3",
+        path: "La Pieza - Luar La L.mp3"
+    },
+    {
         name: "Alto Riesgo",
         artist: "Myke Towers",
         image: "MYKEPIC3333.jpg",
