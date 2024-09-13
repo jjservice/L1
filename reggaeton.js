@@ -55,7 +55,7 @@ let track_list = [
         path: "Wisin, Chencho Corleone - LOCO X PERREARTE.mp3"
     },
     {
-        name: "Puro Guayeteo.mp3",
+        name: "Puro Guayeteo",
         artist: "Wisin, Don Omar, Jowell & Randy",
         image: "GUAYETEOPIC.jpg",
         path: "Wisin, Don Omar, Jowell & Randy - Puro Guayeteo.mp3"
