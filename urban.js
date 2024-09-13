@@ -85,15 +85,9 @@ let track_list = [
         path: "Luar La L & Sinfonico - Drip.mp3"
     },
     {
-        name: "Solo $exo",
-        artist: "Myke Towers",
-        image: "mykepic2.jpg",
-        path: "Myke Towers - Solo $exo.mp3"
-    },
-    {
         name: "La Pieza",
         artist: "Luar La L",
-        image: "La Pieza - Luar La L.mp3",
+        image: "LUAPIC333.jpg",
         path: "La Pieza - Luar La L.mp3"
     },
     {
