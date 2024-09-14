@@ -1,8 +1,6 @@
-body{
-    min-height: 100dvh;
-}
+
 footer img{
     position: sticky;
-    top: 100%;
+    bottom: 0%;
 
 }

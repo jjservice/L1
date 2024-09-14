@@ -690,10 +690,10 @@ body{
       
     }
     .dropdown a ion-icon{
-      font-size: 20px;
+      font-size: 30px;
       align-content: center;
       color: gold;
-      border-radius: 10px;
+      border-radius: 20px;
       text-shadow: 2px 2px 4px gold;
       box-shadow: 2px 2px 4px gold;
       background-image: url(lollipop_4444GIF.gif);
