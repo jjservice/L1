@@ -634,13 +634,13 @@ body{
     .content::-webkit-scrollbar-track {
       background: transparent;
       border-radius: 10px;
-      box-shadow: 4px 4px 10px violet;
+      box-shadow: 4px 4px 10px darkmagenta;
       margin-block: .5em;
       padding-block: .5em;
     }
     .content::-webkit-scrollbar-thumb {
       border-radius: 10px;
-      box-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 6px 10px gold;
     }
     .content::-webkit-scrollbar-thumb:hover {
       background: gold;
@@ -650,7 +650,7 @@ body{
     }
     .content::-webkit-scrollbar-thumb{
       background: linear-gradient(darkmagenta,black,blue);
-      border: 2px solid gold;    
+      border: 1px solid gold;    
     }
     header{
       position: initial;
@@ -709,5 +709,290 @@ body{
     .dropdown ion-icon{
       font-size: 35px;
     }
-  
-  
+    
+    .navigation{
+      align-content: center;
+      text-align: center;
+      max-width: 100%;
+      border: 1px solid gold;
+      display: flex;
+      overflow-x: scroll;
+      background-image: url(lollipop_3GIF.gif);
+      background-position: center;
+      background-size: cover;
+      border-radius: 10px;
+      box-shadow: 2px 2px 4px gold;
+    }
+    
+    .navigation .item{
+      color: beige;
+      align-items: center;
+      text-align: center;
+      align-content: center;
+      border-radius: 20px;
+    }
+    .navigation::-webkit-scrollbar{
+      width: 0%;
+    }
+    .navigation::-webkit-scrollbar-track {
+      border-radius: 10px;
+      box-shadow: 4px 4px 10px violet;
+      margin-block: .5em;
+      padding-block: .5em;
+    }
+    .navigation::-webkit-scrollbar::-ms-thumb{
+      background-color: darkmagenta;
+      border-radius: 20px;
+      box-shadow: 2px 2px 4px gold;
+    }
+
+    .navigation .item:hover{
+      background-color: gold;
+    }
+    .navigation .item:hover ion-icon{
+      color: darkmagenta;
+      text-shadow: 2px 2px 4px gold;
+    }
+    .navigation .item {
+      font-size: 50px;
+    }
+
+    .navigation::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px gold;
+    }
+    .navigation::-webkit-scrollbar-thumb:hover {
+      background: gold;
+    }
+    .navigation::-webkit-scrollbar-thumb{
+      transition: background-color 0.5s ease;
+    }
+    .navigation::-webkit-scrollbar-thumb{
+      background: linear-gradient(darkmagenta,black,blue);
+      border: 2px solid gold;    
+    }
+
+    .navigation .mlb{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image:url(MLB\ GIF.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .mlb:hover{
+      background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
+    .navigation .team1{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image: url(YAKEELOGOGIISS.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .team1:hover{
+      background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
+    .navigation .team2{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image:url(bostongif22.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .team2:hover{
+      background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
+    .navigation .team3{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image:url(New_York_Mets_flag.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .team3:hover{
+      background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
+
+    
+    .navigation .team4{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image:url(Texas_Rangers_flag.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .team4:hover{
+      background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
+    .navigation .nba{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image:url(NBAGIFF.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .nba:hover{
+      background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
+    .navigation .team5{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image:url(lakerslogo.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .team5:hover{
+      background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
+    .navigation .team6{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image:url(Philadelphia_76ers_flag_2.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .team6:hover{
+      background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
+    .navigation .team7{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image:url(warrioslogo.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .team7:hover{
+      background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
+    .navigation .team8{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image:url(kniksgiff.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .team8:hover{
+      background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
+    .navigation .team9{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image:url(cavs_logo.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .team9:hover{
+      background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
+    
+
