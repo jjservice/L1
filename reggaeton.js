@@ -25,6 +25,36 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "La Llevo Al Cielo",
+        artist: "Chencho Corleone, Chris Jedi, Anuel AA , Ñengo Flow ",
+        image: "LALLEVOALCIELOPICC.jpg",
+        path: "Chencho Corleone, Chris Jedi, Anuel AA , Ñengo Flow - La Llevo Al Cielo"
+    },
+    {
+        name: "Escándalo",
+        artist: "Ñengo Flow",
+        image: "NEGOPIC4444.jpg",
+        path: "Ñengo Flow - Escándalo.mp3"
+    },
+    {
+        name: "Poderoso",
+        artist: "Cosculluela",
+        image: "COSCUPIC111.jpg",
+        path: "Cosculluela - Poderoso.mp3"
+    },
+    {
+        name: "Yandel 150",
+        artist: "Yandel, Feid",
+        image: "feidyandelpiccc.jpg",
+        path: "Yandel, Feid - Yandel 150.mp3"
+    },
+    {
+        name: " Doxxis",
+        artist: "Arcangel, Yandel",
+        image: "arcangelyandelpic.jpg",
+        path: "Arcangel, Yandel - Doxxis.mp3"
+    },
+    {
         name: "AUNQUE LLEGUE OTRO",
         artist: "Myke Towers & Jay Wheeler",
         image: "mykejaypic.jpg",
