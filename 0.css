@@ -699,6 +699,7 @@ body{
       background-image: url(lollipop_4444GIF.gif);
       background-position: center;
       background-size: cover;
+      text-decoration: none;
     }
     .dropdown a ion-icon:hover{
       color: darkmagenta;

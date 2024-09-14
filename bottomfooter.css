@@ -1,6 +1,11 @@
 
 footer img{
     position: sticky;
-    bottom: 0%;
+    top: 0%;
 
+}
+h1{
+    bottom: 0%;
+    position: sticky;
+   
 }
