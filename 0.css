@@ -1028,3 +1028,184 @@ body{
       text-shadow: 2px 2px 10px gold;
       box-shadow: 2px 2px 10px darkmagenta;
     }
+
+    .li15 a{
+      font-size: 30px;
+      text-align: center;
+      background-image: url(USOPENGIF.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+    }
+    .li15 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .li16 a{
+      font-size: 30px;
+      text-align: center;
+      background-image: url(MLB\ GIF.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+    }
+    .li16 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .li17 a{
+      font-size: 30px;
+      text-align: center;
+      background-image: url(FIFA.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+    }
+    .li17 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .li18 a{
+      font-size: 30px;
+      text-align: center;
+      background-image: url(NBAGIFF.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+    }
+    .li18 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .li19 a{
+      font-size: 30px;
+      text-align: center;
+      background-image: url(EUROCUPGIF.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+    }
+    .li19 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .li20 a{
+      font-size: 30px;
+      text-align: center;
+      background-image: url(UFCLOGOGIF.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+    }
+    .li20 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .li21 a{
+      font-size: 30px;
+      text-align: center;
+      background-image:url(NFLPIC.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+    }
+    .li21 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .li22 a{
+      font-size: 30px;
+      text-align: center;
+      background-image: url(formula1pic.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+    }
+    .li22 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .li23 a{
+      font-size: 30px;
+      text-align: center;
+      background-image: url(motogpicccc.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+    }
+    .li23 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .li24 a{
+      font-size: 30px;
+      text-align: center;
+      background-image: url(nascarpic1.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+    }
+    .li24 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .li25 a{
+      font-size: 30px;
+      text-align: center;
+      background-image: url(pgalogo.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+    }
+    .li25 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
+    .li26 a{
+      font-size: 30px;
+      text-align: center;
+      background-image: url(nhlpic.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+    }
+    .li26 a:hover{
+      background-color: gold;
+      color: beige;
+      text-shadow: 2px 2px 10px goldenrod;
+      transition: 1s;
+    }
