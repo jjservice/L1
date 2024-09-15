@@ -721,7 +721,7 @@ body{
       background-position: center;
       background-size: cover;
       border-radius: 10px;
-      box-shadow: 2px 2px 4px gold;
+      box-shadow: 2px 4px 10px gold;
     }
     
     .navigation .item{
@@ -729,7 +729,6 @@ body{
       align-items: center;
       text-align: center;
       align-content: center;
-      border-radius: 20px;
     }
     .navigation::-webkit-scrollbar{
       width: 0%;
@@ -796,7 +795,7 @@ body{
       font-weight: bold;
       text-align: center;
       align-content: center;
-      background-image: url(YAKEELOGOGIISS.gif);
+      background-image: url(FIFA.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -816,7 +815,7 @@ body{
       font-weight: bold;
       text-align: center;
       align-content: center;
-      background-image:url(bostongif22.gif);
+      background-image:url(NFLPIC.gif);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -836,7 +835,7 @@ body{
       font-weight: bold;
       text-align: center;
       align-content: center;
-      background-image:url(New_York_Mets_flag.gif);
+      background-image:url(UFCLOGOGIF.gif);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -858,7 +857,7 @@ body{
       font-weight: bold;
       text-align: center;
       align-content: center;
-      background-image:url(Texas_Rangers_flag.gif);
+      background-image:url(espn1.webp);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -898,7 +897,7 @@ body{
       font-weight: bold;
       text-align: center;
       align-content: center;
-      background-image:url(lakerslogo.gif);
+      background-image:url(nascarpic1.gif);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -918,7 +917,7 @@ body{
       font-weight: bold;
       text-align: center;
       align-content: center;
-      background-image:url(Philadelphia_76ers_flag_2.gif);
+      background-image:url(USOPENGIF.webp);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -938,7 +937,7 @@ body{
       font-weight: bold;
       text-align: center;
       align-content: center;
-      background-image:url(warrioslogo.png);
+      background-image:url(motogpicccc.gif);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -958,7 +957,7 @@ body{
       font-weight: bold;
       text-align: center;
       align-content: center;
-      background-image:url(kniksgiff.gif);
+      background-image:url(EUROCUPGIF.gif);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -978,7 +977,7 @@ body{
       font-weight: bold;
       text-align: center;
       align-content: center;
-      background-image:url(cavs_logo.gif);
+      background-image:url(formula1pic.gif);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -994,5 +993,44 @@ body{
       text-shadow: 2px 2px 10px gold;
       box-shadow: 2px 2px 10px darkmagenta;
     }
-    
-
+    .navigation div ion-icon{
+       padding: 20px;
+       font-weight: bold;
+       font-size: 50px;
+       color: gold;
+       border-bottom: 2px solid violet;
+       box-shadow: 2px 4px 6px  gold;
+       border-radius: 100%;
+       background-image: url(lollipop_3GIF.gif);
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-color: transparent;
+    }
+    .navigation div ion-icon:hover{
+       background-color: gold;
+       color: darkmagenta;
+       text-shadow: 2px 2px 10px gold;
+       box-shadow: 2px 2px 10px darkmagenta;
+       transform: scale(1.1);
+    }
+    .navigation .team10{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image:url(pgalogo.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .team10:hover{
+      background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
