@@ -397,7 +397,7 @@ body{
       border-radius: 20px;
     }
     .li1 a{
-      background-image: url(espapic2.png);
+      background-image: url(googlelog.gif);
       background-position: center;
       background-size: cover;
       border-radius: 20px;
@@ -717,9 +717,6 @@ body{
       border: 1px solid gold;
       display: flex;
       overflow-x: scroll;
-      background-image: url(lollipop_3GIF.gif);
-      background-position: center;
-      background-size: cover;
       border-radius: 10px;
       box-shadow: 2px 4px 10px gold;
     }
@@ -735,7 +732,8 @@ body{
     }
     .navigation::-webkit-scrollbar-track {
       border-radius: 10px;
-      box-shadow: 4px 4px 10px violet;
+      box-shadow: 4px 4px 10px gold;
+      border-bottom: 2px solid black;
       margin-block: .5em;
       padding-block: .5em;
     }
@@ -998,7 +996,6 @@ body{
        font-weight: bold;
        font-size: 20px;
        color: gold;
-
        box-shadow: 2px 2px 10px  transparent;
        border-radius: 10px;
        

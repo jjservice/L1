@@ -28,7 +28,7 @@ let track_list = [
         name: "La Llevo Al Cielo",
         artist: "Chencho Corleone, Chris Jedi, Anuel AA , Ñengo Flow ",
         image: "LALLEVOALCIELOPICC.jpg",
-        path: "Chencho Corleone, Chris Jedi, Anuel AA , Ñengo Flow - La Llevo Al Cielo"
+        path: "lallevoalcielo-mp3.mp3"
     },
     {
         name: "Escándalo",
