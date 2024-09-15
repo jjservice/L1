@@ -996,22 +996,19 @@ body{
     .navigation div ion-icon{
        padding: 20px;
        font-weight: bold;
-       font-size: 50px;
+       font-size: 20px;
        color: gold;
-       border-bottom: 2px solid violet;
-       box-shadow: 2px 4px 6px  gold;
-       border-radius: 100%;
-       background-image: url(lollipop_3GIF.gif);
-       background-position: center;
-       background-size: cover;
-       background-repeat: no-repeat;
-       background-color: transparent;
+
+       box-shadow: 2px 2px 10px  transparent;
+       border-radius: 10px;
+       
     }
     .navigation div ion-icon:hover{
        background-color: gold;
        color: darkmagenta;
        text-shadow: 2px 2px 10px gold;
-       box-shadow: 2px 2px 10px darkmagenta;
+       box-shadow: 2px 6px 10px darkmagenta;
+       border-radius: 50px;
        transform: scale(1.1);
     }
     .navigation .team10{
