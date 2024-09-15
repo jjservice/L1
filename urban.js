@@ -25,6 +25,48 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "ASEGURAO",
+        artist: "Shadow Blow X Lapiz Conciente",
+        image: "SHADOWLAPIS5555.jpg",
+        path: "Shadow Blow  Lapiz Conciente - ASEGURAO.mp3"
+    },
+    {
+        name: "SEM",
+        artist: "Arcangel",
+        image: "arcangelpic33333.jpg",
+        path: "Arcangel - SEM.mp3"
+    },
+    {
+        name: "No Le Baje",
+        artist: "Miky Woodz",
+        image: "mikypicc44444.jpg",
+        path: "Miky Woodz - No Le Baje.mp3"
+    },
+    {
+        name: "CRYPTO",
+        artist: "Miky Woodz",
+        image: "mikypic5555.jpg",
+        path: "Miky Woodz - CRYPTO.mp3"
+    },
+    {
+        name: "Por Mi Lau",
+        artist: "Miky Woodz",
+        image: "MIKYWOODSPIC111.jpg",
+        path: "Miky Woodz - Por Mi Lau.mp3"
+    },
+    {
+        name: "Mujeres Como Tu",
+        artist: "Lapiz Conciente X Shadow Blow",
+        image: "LAPIZSHADOWPIC.jpg",
+        path: "Lapiz Conciente ft. Shadow Blow - Mujeres Como Tu.mp3"
+    },
+    {
+        name: "27 Mensajes",
+        artist: "Shadow Blow X Lapiz Conciente",
+        image: "LAPIZSHADOWPIC.jpg",
+        path: "Shadow Blow  Lapiz Conciente  27 Mensajes.mp3"
+    },
+    {
         name: "Solo $exo",
         artist: "Myke Towers",
         image: "mykepic2.jpg",
