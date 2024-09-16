@@ -37,12 +37,54 @@ body{
         border: 1px solid gold;
         box-shadow: 2px 4px 4px gold;
         background-color: transparent;
-        border-radius: 50px;
+        border-radius: 20px;
         letter-spacing: 2px;
        }
        h1:hover{
         color: darkmagenta;
         text-shadow: 2px 2px 4px gold;
+       }
+        h6:hover{
+        background-color: darkmagenta;
+        color: white;
+        text-shadow: 2px 2px 4px gold;
+       }
+       .hits-title2{
+        background-image: url(GUITARGIF1.gif);
+        background-position: center;
+        background-size: cover;
+
+
+       }
+       .hits-title ion-icon{
+        font-size: 30px;
+        color: gold;
+        text-shadow: 2px 2px 4px gold;
+        transition: color.5s;
+        box-shadow: 2px 2px 4px gold;
+        border-radius: 100%;
+        background-image: url(lollipop_4444GIF.gif);
+        background-position: center;
+        background-size: cover;
+        padding: 5px;
+        margin: 5px;
+       
+       }
+       .hits-title ion-icon:hover{
+        color: darkmagenta;
+        text-shadow: 2px 2px 4px gold;
+       }
+       .hits-title2 ion-icon{
+        font-size: 30px;
+        color: gold; 
+       }
+       .hits-title2 ion-icon:hover{
+        color: darkmagenta;
+        text-shadow: 2px 2px 4px gold; 
+       }
+       .hits-title2{
+        color: gold;
+        text-shadow: 3px 3px 3px blue;
        }
 
     /* Using flex with the column direction to
@@ -709,6 +751,16 @@ body{
     .dropdown ion-icon{
       font-size: 35px;
     }
+    .hits-title{
+      background-image: url(MAGENTAFIREGIF.webp);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: gold;
+      text-shadow: 3px 3px 1px blue;
+      font-family: cursive;
+      box-shadow: 2px 4px 6px gold;
+    }
     
     .navigation{
       align-content: center;
@@ -719,6 +771,10 @@ body{
       overflow-x: scroll;
       border-radius: 10px;
       box-shadow: 2px 4px 10px gold;
+      background-image: url(MAGENTAFIREGIF.webp);
+      background-position: center;
+      background-size: cover;
+
     }
     
     .navigation .item{
@@ -768,12 +824,33 @@ body{
       background: linear-gradient(darkmagenta,black,blue);
       border: 2px solid gold;    
     }
+    
+    .navigation .team6{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image:url(karolgsiantePIC.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .team6:hover{
+      background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
 
     .navigation .mlb{
       font-weight: bold;
       text-align: center;
       align-content: center;
-      background-image:url(MLB\ GIF.gif);
+      background-image:url(mikypic5555.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -793,7 +870,7 @@ body{
       font-weight: bold;
       text-align: center;
       align-content: center;
-      background-image: url(FIFA.jpg);
+      background-image: url(MIKEPIC22222.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -809,6 +886,49 @@ body{
       text-shadow: 2px 2px 10px gold;
       box-shadow: 2px 2px 10px darkmagenta;
     }
+
+    .navigation .nba{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image:url(arcangelpichit.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .nba:hover{
+      background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
+
+    .navigation .team8{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image:url(LUALLPICCC1111.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .team8:hover{
+      background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
+
     .navigation .team2{
       font-weight: bold;
       text-align: center;
@@ -855,7 +975,7 @@ body{
       font-weight: bold;
       text-align: center;
       align-content: center;
-      background-image:url(espn1.webp);
+      background-image:url(nhlpic.gif);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -871,26 +991,7 @@ body{
       text-shadow: 2px 2px 10px gold;
       box-shadow: 2px 2px 10px darkmagenta;
     }
-    .navigation .nba{
-      font-weight: bold;
-      text-align: center;
-      align-content: center;
-      background-image:url(NBAGIFF.gif);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
-      border-radius: 10px;
-      margin: 5px;
-      padding: 50px;
-    }
-    .navigation .nba:hover{
-      background-color: gold;
-      color: darkmagenta;
-      text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
-    }
+    
     .navigation .team5{
       font-weight: bold;
       text-align: center;
@@ -911,26 +1012,7 @@ body{
       text-shadow: 2px 2px 10px gold;
       box-shadow: 2px 2px 10px darkmagenta;
     }
-    .navigation .team6{
-      font-weight: bold;
-      text-align: center;
-      align-content: center;
-      background-image:url(USOPENGIF.webp);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
-      border-radius: 10px;
-      margin: 5px;
-      padding: 50px;
-    }
-    .navigation .team6:hover{
-      background-color: gold;
-      color: darkmagenta;
-      text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
-    }
+    
     .navigation .team7{
       font-weight: bold;
       text-align: center;
@@ -951,26 +1033,7 @@ body{
       text-shadow: 2px 2px 10px gold;
       box-shadow: 2px 2px 10px darkmagenta;
     }
-    .navigation .team8{
-      font-weight: bold;
-      text-align: center;
-      align-content: center;
-      background-image:url(EUROCUPGIF.gif);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
-      border-radius: 10px;
-      margin: 5px;
-      padding: 50px;
-    }
-    .navigation .team8:hover{
-      background-color: gold;
-      color: darkmagenta;
-      text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
-    }
+    
     .navigation .team9{
       font-weight: bold;
       text-align: center;
@@ -1044,6 +1107,7 @@ body{
       text-shadow: 2px 2px 10px goldenrod;
       transition: 1s;
     }
+
     .li16 a{
       font-size: 30px;
       text-align: center;
