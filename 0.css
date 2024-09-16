@@ -23,9 +23,30 @@ body{
         font-weight: bold;
         font-family: 'Times New Roman', Times, serif;
         color: white;
-        text-shadow: 2px 3px 4px gold;
+        text-shadow: 2px 2px 4px gold;
         transition: background-color .5s;
        }
+       h6 .icon{
+        color: gold;
+       
+       }
+       h1:hover.icon{
+        color: darkmagenta;
+        text-shadow: 2px 2px 4px gold;
+       }
+      h1 ion-icon{
+        color: rgb(255, 252, 233);
+        border-bottom: 2px solid gold;
+        box-shadow: 2px 4px 6px darkmagenta;
+        border-radius: 50px;
+        background-image: url(lollipop_3GIF.gif);
+        background-size: cover;
+        background-color: transparent;
+        padding: 10px;
+        margin: 5px;
+ 
+      }
+
        h1{
         background-image: url(lollipop_4444GIF.gif);
         background-position: center;
@@ -49,12 +70,22 @@ body{
         color: white;
         text-shadow: 2px 2px 4px gold;
        }
+       .hits-title{
+        background-image: url(MAGENTAFIREGIF.webp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: gold;
+        text-shadow: 2px 2px 4px blue;
+        font-weight: bold;
+        font-size: 40px;
+        box-shadow: 2px 2px 4px gold;
+      }
+      
        .hits-title2{
         background-image: url(GUITARGIF1.gif);
         background-position: center;
         background-size: cover;
-
-
        }
        .hits-title ion-icon{
         font-size: 30px;
@@ -75,7 +106,7 @@ body{
         text-shadow: 2px 2px 4px gold;
        }
        .hits-title2 ion-icon{
-        font-size: 30px;
+        font-size: 25px;
         color: gold; 
        }
        .hits-title2 ion-icon:hover{
@@ -750,16 +781,6 @@ body{
     }
     .dropdown ion-icon{
       font-size: 35px;
-    }
-    .hits-title{
-      background-image: url(MAGENTAFIREGIF.webp);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      color: gold;
-      text-shadow: 3px 3px 1px blue;
-      font-family: cursive;
-      box-shadow: 2px 4px 6px gold;
     }
     
     .navigation{
