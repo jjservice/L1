@@ -30,7 +30,7 @@ body{
         color: gold;
        
        }
-       h1:hover.icon{
+       h1 ion-icon:hover{
         color: darkmagenta;
         text-shadow: 2px 2px 4px gold;
        }
@@ -42,7 +42,7 @@ body{
         background-image: url(lollipop_3GIF.gif);
         background-size: cover;
         background-color: transparent;
-        padding: 10px;
+        padding: 5px;
         margin: 5px;
  
       }
