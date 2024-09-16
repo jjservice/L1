@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "",
-        artist: "",
-        image: "",
-        path: ""
+        name: "Con Quién Te Olvido",
+        artist: "Ala Jaza",
+        image: "alajazapic222.jpg",
+        path: "Ala Jaza - Con Quién Te Olvido.mp3"
     },
 ];
 

@@ -840,7 +840,10 @@ body{
       padding: 50px;
     }
     .navigation .team6:hover{
-      background-color: gold;
+      background-image: url(karolpic2.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
       color: darkmagenta;
       text-shadow: 2px 2px 10px gold;
       box-shadow: 2px 2px 10px darkmagenta;
@@ -861,6 +864,10 @@ body{
       padding: 50px;
     }
     .navigation .mlb:hover{
+      background-image: url(MIKYPIC33333.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
       background-color: gold;
       color: darkmagenta;
       text-shadow: 2px 2px 10px gold;
@@ -881,7 +888,10 @@ body{
       padding: 50px;
     }
     .navigation .team1:hover{
-      background-color: gold;
+      background-image: url(mykepic4.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
       color: darkmagenta;
       text-shadow: 2px 2px 10px gold;
       box-shadow: 2px 2px 10px darkmagenta;
@@ -902,7 +912,10 @@ body{
       padding: 50px;
     }
     .navigation .nba:hover{
-      background-color: gold;
+      background-image: url(arcangelPic.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
       color: darkmagenta;
       text-shadow: 2px 2px 10px gold;
       box-shadow: 2px 2px 10px darkmagenta;
@@ -923,28 +936,10 @@ body{
       padding: 50px;
     }
     .navigation .team8:hover{
-      background-color: gold;
-      color: darkmagenta;
-      text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
-    }
-
-    .navigation .team2{
-      font-weight: bold;
-      text-align: center;
-      align-content: center;
-      background-image:url(NFLPIC.gif);
+      background-image: url(LUAPIC333.jpg);
       background-position: center;
-      background-repeat: no-repeat;
       background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
-      border-radius: 10px;
-      margin: 5px;
-      padding: 50px;
-    }
-    .navigation .team2:hover{
-      background-color: gold;
+      background-repeat: no-repeat;
       color: darkmagenta;
       text-shadow: 2px 2px 10px gold;
       box-shadow: 2px 2px 10px darkmagenta;
@@ -953,7 +948,7 @@ body{
       font-weight: bold;
       text-align: center;
       align-content: center;
-      background-image:url(UFCLOGOGIF.gif);
+      background-image:url(BULINCEKYPIC.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -964,18 +959,20 @@ body{
       padding: 50px;
     }
     .navigation .team3:hover{
-      background-color: gold;
+      background-image: url(BULINCEKY22.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
       color: darkmagenta;
       text-shadow: 2px 2px 10px gold;
       box-shadow: 2px 2px 10px darkmagenta;
     }
 
-    
-    .navigation .team4{
+    .navigation .team2{
       font-weight: bold;
       text-align: center;
       align-content: center;
-      background-image:url(nhlpic.gif);
+      background-image:url(alajazapic222.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -985,8 +982,52 @@ body{
       margin: 5px;
       padding: 50px;
     }
-    .navigation .team4:hover{
+    .navigation .team2:hover{
+      background-image: url(ALAJAPICCCC.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
+    .navigation .team9{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image:url(ATRASDELPESOPICCCCC.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .team9:hover{
       background-color: gold;
+      color: darkmagenta;
+      text-shadow: 2px 2px 10px gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+    }
+
+    .navigation .team7{
+      font-weight: bold;
+      text-align: center;
+      align-content: center;
+      background-image:url(bigxpicccccc.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 2px solid gold;
+      box-shadow: 2px 2px 10px darkmagenta;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 50px;
+    }
+    .navigation .team7:hover{
+      background-image: url(BIGXPICC.jpg);
       color: darkmagenta;
       text-shadow: 2px 2px 10px gold;
       box-shadow: 2px 2px 10px darkmagenta;
@@ -996,7 +1037,7 @@ body{
       font-weight: bold;
       text-align: center;
       align-content: center;
-      background-image:url(nascarpic1.gif);
+      background-image:url(milliondollarpic.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -1013,47 +1054,7 @@ body{
       box-shadow: 2px 2px 10px darkmagenta;
     }
     
-    .navigation .team7{
-      font-weight: bold;
-      text-align: center;
-      align-content: center;
-      background-image:url(motogpicccc.gif);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
-      border-radius: 10px;
-      margin: 5px;
-      padding: 50px;
-    }
-    .navigation .team7:hover{
-      background-color: gold;
-      color: darkmagenta;
-      text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
-    }
     
-    .navigation .team9{
-      font-weight: bold;
-      text-align: center;
-      align-content: center;
-      background-image:url(formula1pic.gif);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
-      border-radius: 10px;
-      margin: 5px;
-      padding: 50px;
-    }
-    .navigation .team9:hover{
-      background-color: gold;
-      color: darkmagenta;
-      text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
-    }
     .navigation div ion-icon{
        padding: 20px;
        font-weight: bold;
@@ -1070,26 +1071,6 @@ body{
        box-shadow: 2px 6px 10px darkmagenta;
        border-radius: 50px;
        transform: scale(1.1);
-    }
-    .navigation .team10{
-      font-weight: bold;
-      text-align: center;
-      align-content: center;
-      background-image:url(pgalogo.png);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border: 2px solid gold;
-      box-shadow: 2px 2px 10px darkmagenta;
-      border-radius: 10px;
-      margin: 5px;
-      padding: 50px;
-    }
-    .navigation .team10:hover{
-      background-color: gold;
-      color: darkmagenta;
-      text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 2px 10px darkmagenta;
     }
 
     .li15 a{

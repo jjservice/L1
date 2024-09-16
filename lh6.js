@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "",
-        artist: "",
-        image: "",
-        path: ""
+        name: "CON SONIDO",
+        artist: "BULIN 47 X CEKY VICINY ",
+        image: "BULINCEKYPIC.jpg",
+        path: "BULIN 47 X CEKY VICINY - CON SONIDO (PROD BREYCO).mp3"
     },
 ];
 

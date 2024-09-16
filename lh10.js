@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "",
-        artist: "",
-        image: "",
-        path: ""
+        name: "MILLION DOLLAR BABY",
+        artist: "Tommy Richman",
+        image: "milliondollarpic.jpg",
+        path: "Tommy Richman - MILLION DOLLAR BABY (Official Visualizer).mp3"
     },
 ];
 
