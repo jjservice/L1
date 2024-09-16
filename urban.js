@@ -31,12 +31,6 @@ let track_list = [
         path: "Shadow Blow  Lapiz Conciente - ASEGURAO.mp3"
     },
     {
-        name: "SEM",
-        artist: "Arcangel",
-        image: "arcangelpic33333.jpg",
-        path: "Arcangel - SEM.mp3"
-    },
-    {
         name: "No Le Baje",
         artist: "Miky Woodz",
         image: "mikypicc44444.jpg",
@@ -83,6 +77,12 @@ let track_list = [
         artist: "Lito Kirino ft. Tali",
         image: "777PIC.jpg",
         path: "Lito Kirino - 777 ft. Tali.mp3"
+    },
+    {
+        name: "Quienes son",
+        artist: "C-Dobleta",
+        image: "quieneson.jpg",
+        path: "QUIENES SON- CDOBLETA.mp3"
     },
     {
         name: "Drug Dealer",
