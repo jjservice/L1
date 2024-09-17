@@ -35,15 +35,13 @@ body{
         text-shadow: 2px 2px 4px gold;
        }
       h1 ion-icon{
-        color: rgb(255, 252, 233);
+        color: rgb(255, 251, 178);
         border-bottom: 2px solid gold;
         box-shadow: 2px 4px 6px darkmagenta;
         border-radius: 50px;
         background-image: url(lollipop_3GIF.gif);
         background-size: cover;
         background-color: transparent;
-        padding: 5px;
-        margin: 5px;
  
       }
 
@@ -99,6 +97,9 @@ body{
         background-size: cover;
         padding: 5px;
         margin: 5px;
+
+        
+       
        
        }
        .hits-title ion-icon:hover{
@@ -357,7 +358,7 @@ body{
         font-size: 50px;
         position: relative;
         color: gold;
-        box-shadow:2px 3px 4px gold;
+        box-shadow:2px 3px 4px darkmagenta;
         border: 4px solid goldenrod;
         border-radius: 20px;
         background-image: url(lollipop_4444GIF.gif);
@@ -390,8 +391,7 @@ body{
     }
     .dropdown button{
         object-position: left;
-        color: white;
-        box-shadow: 2px 2px 4px gold;
+        box-shadow: 2px 4px 6px darkmagenta;
         font-size: 30px;
         font-weight:bolder;
         background-image: url(lollipop_4444GIF.gif);
@@ -434,11 +434,11 @@ body{
       box-shadow: 3px 3px 10px darkmagenta;
       transform: scale(1.05);
       transition: 0s;
-      border-radius: 20px;
     }
     .dropdown a:hover{
-        background-color:golds;
-        transition: 1s;
+        color: darkmagenta;
+        text-shadow: 3px 3px 10px darkmagenta;
+        transition: 0.5s;
     }
     .g-btn:hover{
         background-color: gold;
@@ -740,16 +740,16 @@ body{
       display: inline-block;
     }
     header a{
-      color: gold;
+      color: darkmagenta;
       text-shadow: 6px 6px 10px darkmagenta;
       transition: color 0.5s ease;
-      background-image: url(lollipop_4444GIF.gif);
+      background-image: url(byegif.gif);
       background-position: center;
       background-size: cover;
       font-size: 30px;
       font-weight: bold;
       margin: 10px;
-      box-shadow: 2px 6px 6px gold;
+      box-shadow: 2px 6px 6px darkmagenta;
       border-radius: 100%;
       padding: 10px;
       border: 4px solid gold;
@@ -757,9 +757,9 @@ body{
          
     }
      header a:hover{
-      color: darkmagenta;
-      text-shadow: 2px 2px 10px gold;
-      box-shadow: 2px 6px 6px darkmagenta;
+      color: crimson;
+      box-shadow: 2px 6px 6px crimson;
+      border: 4px solid red;
       
     }
     .dropdown a ion-icon{
