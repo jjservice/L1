@@ -61,16 +61,22 @@ let track_list = [
         path: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
     },
     {
-        name: "Por Mi Lau",
-        artist: "Miky Woodz",
-        image: "mikypic5555.jpg",
-        path: "Miky Woodz - Por Mi Lau.mp3"
+        name: "CON SONIDO",
+        artist: "BULIN 47 X CEKY VICINY",
+        image: "CONSONIDOPIC.jpg",
+        path: "BULIN 47 X CEKY VICINY - CON SONIDO (PROD BREYCO).mp3"
     },
     {
         name: "Gallery Dept",
         artist: "Myke Towers",
         image: "mykepic2.jpg",
         path: "Myke Towers - Gallery Dept.mp3"
+    },
+    {
+        name: "Por Mi Lau",
+        artist: "Miky Woodz",
+        image: "mikypic5555.jpg",
+        path: "Miky Woodz - Por Mi Lau.mp3"
     },
     {
         name: "Batman en Can Am",
@@ -83,12 +89,6 @@ let track_list = [
         artist: "Luar La L & Sinfonico",
         image: "LUALLPICCC1111.jpg",
         path: "Luar La L & Sinfonico - Drip.mp3"
-    },
-    {
-        name: "CON SONIDO",
-        artist: "BULIN 47 X CEKY VICINY",
-        image: "CONSONIDOPIC.jpg",
-        path: "BULIN 47 X CEKY VICINY - CON SONIDO (PROD BREYCO).mp3"
     },
     {
         name: "No te contaron mal",
