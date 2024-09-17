@@ -23,7 +23,79 @@ let updateTimer;
 let curr_track = document.createElement('audio');
 
 // Define the list of tracks that have to be played
-let track_list = [
+let track_list = [   
+    {
+        name: "Hola",
+        artist: "Hildemaro",
+        image: "holapic.jpg",
+        path: "Hola - Hildemaro (.mp3"
+    },
+    {
+        name: "La Cura",
+        artist: "Frankie Ruiz",
+        image: "frankieCurapic.jpg",
+        path: "Frankie Ruiz-La Cura.mp3"
+    },
+    {
+        name: "Como Te Hago Entender",
+        artist: "Roberto Roena",
+        image: "COMOTEHAGOPIC.jpg",
+        path: "Como Te Hago ENTENDER  - Roberto Roena [Video Lyric].mp3"
+    },
+    {
+        name: "Probablemente",
+        artist: "Yiyo Sarante",
+        image: "YiyoPic.jpg",
+        path: "Yiyo Sarante - Probablemente (Audio Oficial).mp3"
+    },
+    {
+        name: "Deseandote",
+        artist: "Frankie Ruiz",
+        image: "frankiepic2.jpg",
+        path: "Frankie Ruiz-Deseandote.mp3"
+    },
+    {
+        name: "Me Hubieras Dicho",
+        artist: "Yiyo Sarante",
+        image: "YIYOPIC2222.jpg",
+        path: "Yiyo Sarante - Me Hubieras Dicho (Video Oficial).mp3"
+    },
+    {
+        name: "El Camionero",
+        artist: "Frankie Ruiz",
+        image: "frankiepic3.jpg",
+        path: "Frankie Ruiz-El Camionero.mp3"
+    },
+    {
+        name: "Se Pareció Tanto a Ti",
+        artist: "Grupo Niche",
+        image: "NICHEPIC.jpg",
+        path: "Se Pareció Tanto a Ti.mp3"
+    },
+    {
+        name: "Por Mujeres Como Tú",
+        artist: "Tito Rojas",
+        image: "titopic222.jpg",
+        path: "Tito Rojas-Por Mujeres Como Tú.mp3"
+    },
+    {
+        name: "Haremos el Amor",
+        artist: "Tony Vega",
+        image: "tonyharemospic.jpg",
+        path: "Tony Vega-Haremos el Amor.mp3"
+    },
+    {
+        name: "Hasta Que Me Olvides",
+        artist: "Raulin Rosendo",
+        image: "ROSENDOPIC.jpg",
+        path: "Raulin Rosendo-Hasta Que Me Olvides.mp3"
+    },
+    {
+        name: "Siempre Sere",
+        artist: "Tito Rojas",
+        image: "titopic222.jpg",
+        path: "Tito Rojas-Siempre Sere.mp3"
+    },
     {
         name: "No podras escapar",
         artist: "Willie Gonzalez",
