@@ -25,6 +25,12 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "ADIVINO",
+        artist: "Myke Towers x Bad Bunny",
+        image: "mykebadadivinopic.jpg",
+        path: "Myke Towers, Bad Bunny - ADIVINO.mp3"
+    },
+    {
         name: "La Llevo Al Cielo",
         artist: "Chencho Corleone, Chris Jedi, Anuel AA , Ñengo Flow ",
         image: "LALLEVOALCIELOPICC.jpg",

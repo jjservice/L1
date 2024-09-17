@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Back On My BS",
-        artist: "BigXthaPlug",
-        image: "bigxpicccccc.png",
-        path: "BigXthaPlug  - Back On My BS [Official Lyric Video].mp3"
+        name: "ADIVINO",
+        artist: "Myke Towers x Bad Bunny",
+        image: "mykebadadivinopic.jpg",
+        path: "Myke Towers, Bad Bunny - ADIVINO.mp3"
     },
 ];
 

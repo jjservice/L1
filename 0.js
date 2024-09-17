@@ -25,16 +25,22 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Past Lives",
-        artist: "SapientDream",
-        image: "pastlivesPIC.jpg",
-        path: "sapientdream - Past Lives (Lyrics).mp3"
+        name: "Si antes te hubiera conocido",
+        artist: "Karol G",
+        image: "MECUROPIC.jpg",
+        path: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
     },
     {
         name: "Por Mi Lau",
         artist: "Miky Woodz",
         image: "mikypic5555.jpg",
         path: "Miky Woodz - Por Mi Lau.mp3"
+    },
+    {
+        name: "ADIVINO",
+        artist: "Myke Towers x Bad Bunny",
+        image: "mykebadadivinopic.jpg",
+        path: "Myke Towers, Bad Bunny - ADIVINO.mp3"
     },
     {
         name: "No te contaron mal",
@@ -71,12 +77,6 @@ let track_list = [
         artist: "Chistian Nodal",
         image: "notecontaronmal.jpg",
         path: "Christian Nodal - Adiós Amor (Audio).mp3"
-    },
-    {
-        name: "Si antes te hubiera conocido",
-        artist: "Karol G",
-        image: "MECUROPIC.jpg",
-        path: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
     },
     {
         name: "Este o Este",
@@ -545,12 +545,6 @@ let track_list = [
         artist: "Myke Towers",
         image: "MykeObvioPIC.jpg",
         path: "Myke Towers - OBVIO (Visualizer).mp3"
-    },
-    {
-        name: "Kame Hame",
-        artist: "Arcangel",
-        image: "arcangelPic.jpg",
-        path: "Arcangel - Kame Hame  SR. SANTOS.mp3"
     },
     {
         name: "Como se siente",
