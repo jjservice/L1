@@ -25,10 +25,22 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Si antes te hubiera conocido",
-        artist: "Karol G",
-        image: "MECUROPIC.jpg",
-        path: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
+        name: "To' la Mujeres Rapan",
+        artist: "Amarfis Y la banda de Atakke",
+        image: "AmarfisPic1.jpg",
+        path: "Amarfis Y la banda de Atakke-To' la Mujeres Rapan.mp3"
+    },
+    {
+        name: "El Guayo",
+        artist: "Amarfis y la banda de Atakke",
+        image: "amarfispic222.jpg",
+        path: "Amarfis y la banda de Atakke-El Guayo.mp3"
+    },
+    {
+        name: "Ando En La Versace",
+        artist: "Omega El Fuerte",
+        image: "omegapic.jpg",
+        path: "Omega El  Fuerte-Ando En La Versace.mp3"
     },
     {
         name: "BOBO",
@@ -41,6 +53,54 @@ let track_list = [
         artist: "Ala Jaza",
         image: "ALAJAPICCCC.jpg",
         path: "Ala Jaza - Nadie Se Meta.mp3"
+    },
+    {
+        name: "Fariseo",
+        artist: "Omega El Fuerte",
+        image: "omegapic2.jpg",
+        path: "Omaga El Fuerte-Fariseo.mp3"
+    },
+    {
+        name: "SUJETO ORO 24",
+        artist: "CUIDATE",
+        image: "sujetocuidatepiiccc.jpg",
+        path: "SUJETO ORO 24 - CUIDATE.mp3"
+    },
+    {
+        name: "El Pollo",
+        artist: "Amarfis y la banda de Atakke",
+        image: "AmarfisPic1.jpg",
+        path: "Amarfis y la banda de Atakee-El Pollo.mp3"
+    },
+    {
+        name: "NO ME HABLEN DE ELLA",
+        artist: "SUJETO 0R0 24",
+        image: "SUJETOPIC3333.jpg",
+        path: "SUJETO 0R0 24 - NO ME HABLEN DE ELLA.mp3"
+    },
+    {
+        name: "No me hable de Gente",
+        artist: "Sujeto Oro 24 ",
+        image: "SUJETOPIC3333.jpg",
+        path: "Sujeto Oro 24 - No me hable de Gente.mp3"
+    },
+    {
+        name: "Yemaya",
+        artist: "Amarfis Y la banda de Atakke",
+        image: "amarfispic333.jpg",
+        path: "Amarfis Y la banda de Atakke-Yemaya.mp3"
+    },
+    {
+        name: "El Vecino",
+        artist: "Sujeto oro 24",
+        image: "SUJETOPICCCC222222.jpg",
+        path: "Sujeto oro 24-El Vecino.mp3"
+    },
+    {
+        name: "Si antes te hubiera conocido",
+        artist: "Karol G",
+        image: "MECUROPIC.jpg",
+        path: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
     },
     {
         name: "TU NO CORRE",
@@ -65,12 +125,6 @@ let track_list = [
         artist: "Ala Jaza",
         image: "alajazapic222.jpg",
         path: "Ala Jaza - Misericordia.mp3"
-    },
-    {
-        name: "SUJETO ORO 24",
-        artist: "CUIDATE",
-        image: "sujetocuidatepiiccc.jpg",
-        path: "SUJETO ORO 24 - CUIDATE.mp3"
     },
     {
         name: "Tattoo",
