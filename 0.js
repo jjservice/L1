@@ -31,16 +31,22 @@ let track_list = [
         path: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
     },
     {
-        name: "Por Mi Lau",
-        artist: "Miky Woodz",
-        image: "mikypic5555.jpg",
-        path: "Miky Woodz - Por Mi Lau.mp3"
-    },
-    {
         name: "ADIVINO",
         artist: "Myke Towers x Bad Bunny",
         image: "mykebadadivinopic.jpg",
         path: "Myke Towers, Bad Bunny - ADIVINO.mp3"
+    },
+    {
+        name: "Lo Caro y Lo Bueno",
+        artist: "Chencho Corleone",
+        image: "chnchocaroybuenopic.jpg",
+        path: "Chencho Corleone - Lo Caro y Lo Bueno.mp3"
+    },
+    {
+        name: "Por Mi Lau",
+        artist: "Miky Woodz",
+        image: "mikypic5555.jpg",
+        path: "Miky Woodz - Por Mi Lau.mp3"
     },
     {
         name: "No te contaron mal",

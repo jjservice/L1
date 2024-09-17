@@ -1,7 +1,7 @@
 h1{
     background-image: none;
     border-radius: 100%;
-    border-color: gold;
-    box-shadow: 3px 3px 3px darkmagenta;
+    border: 4px solid gold;
+    box-shadow: 5px 15px 15px darkmagenta;
 }
 

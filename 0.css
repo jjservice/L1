@@ -54,10 +54,9 @@ body{
         color: white;
         text-shadow: 2px 2px 10px gold;
         border-bottom: 1px solid gold;
-        box-shadow: 2px 4px 4px gold;
         background-color: transparent;
         letter-spacing: 2px;
-        box-shadow: 2px 6px 6px darkmagenta;
+        box-shadow: 5px 15px 15px darkmagenta;
         border-radius: 100%;
         
        }
@@ -1065,7 +1064,7 @@ body{
       font-weight: bold;
       text-align: center;
       align-content: center;
-      background-image:url(milliondollarpic.jpg);
+      background-image:url(chnchocaroybuenopic.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
