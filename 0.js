@@ -25,16 +25,22 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Si antes te hubiera conocido",
-        artist: "Karol G",
-        image: "MECUROPIC.jpg",
-        path: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
+        name: "Aquí Abajo",
+        artist: "Christian Nodal",
+        image: "CHRISTIANNODALPIC.jpg",
+        path: "Christian Nodal - Aquí Abajo.mp3"
     },
     {
-        name: "ADIVINO",
-        artist: "Myke Towers x Bad Bunny",
-        image: "mykebadadivinopic.jpg",
-        path: "Myke Towers, Bad Bunny - ADIVINO.mp3"
+        name: "Drip",
+        artist: "Luar La L & Sinfonico",
+        image: "LUALLPICCC1111.jpg",
+        path: "Luar La L & Sinfonico - Drip.mp3"
+    },
+    {
+        name: "El Final",
+        artist: "Baby Rasta y Gringo",
+        image: "babygringopic2.jpg",
+        path: "Baby Rasta y Gringo - El Final.mp3"
     },
     {
         name: "Lo Caro y Lo Bueno",
@@ -43,22 +49,52 @@ let track_list = [
         path: "Chencho Corleone - Lo Caro y Lo Bueno.mp3"
     },
     {
+        name: "ADIVINO",
+        artist: "Myke Towers x Bad Bunny",
+        image: "mykebadadivinopic.jpg",
+        path: "Myke Towers, Bad Bunny - ADIVINO.mp3"
+    },
+    {
+        name: "Si antes te hubiera conocido",
+        artist: "Karol G",
+        image: "MECUROPIC.jpg",
+        path: "KAROL G - Si Antes Te Hubiera Conocido.mp3"
+    },
+    {
         name: "Por Mi Lau",
         artist: "Miky Woodz",
         image: "mikypic5555.jpg",
         path: "Miky Woodz - Por Mi Lau.mp3"
     },
     {
+        name: "Gallery Dept",
+        artist: "Myke Towers",
+        image: "mykepic2.jpg",
+        path: "Myke Towers - Gallery Dept.mp3"
+    },
+    {
+        name: "Batman en Can Am",
+        artist: "Arcángel",
+        image: "ARCANGELPIC2.jpg",
+        path: "Arcángel - Batman en Can Am.mp3"
+    },
+    {
+        name: "Drip",
+        artist: "Luar La L & Sinfonico",
+        image: "LUALLPICCC1111.jpg",
+        path: "Luar La L & Sinfonico - Drip.mp3"
+    },
+    {
+        name: "CON SONIDO",
+        artist: "BULIN 47 X CEKY VICINY",
+        image: "CONSONIDOPIC.jpg",
+        path: "BULIN 47 X CEKY VICINY - CON SONIDO (PROD BREYCO).mp3"
+    },
+    {
         name: "No te contaron mal",
         artist: "Christian Nodal",
         image: "notecontaronmal.jpg",
         path: "Christian Nodal - No Te Contaron Mal (Audio).mp3"
-    },
-    {
-        name: "Aquí Abajo",
-        artist: "Christian Nodal",
-        image: "CHRISTIANNODALPIC.jpg",
-        path: "Christian Nodal - Aquí Abajo.mp3"
     },
     {
         name: "De Los Besos Que Te Di",
@@ -425,12 +461,6 @@ let track_list = [
         artist: "Raulin Rosendo",
         image: "ROSENDOPIC.jpg",
         path: "Deseo.mp3"
-    },
-    {
-        name: "CON SONIDO",
-        artist: "BULIN 47 X CEKY VICINY",
-        image: "CONSONIDOPIC.jpg",
-        path: "BULIN 47 X CEKY VICINY - CON SONIDO (PROD BREYCO).mp3"
     },
     {
         name: "Que Esta Pasando",

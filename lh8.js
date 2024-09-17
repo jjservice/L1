@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Atras del Peso",
-        artist: "Mozart La Para x Black Jonas Point",
-        image: "ATRASDELPESOPICCCCC.jpg",
-        path: "Atras del Peso - Mozart La Para x Black Jonas Point.mp3"
+        name: "Aquí Abajo",
+        artist: "Christian Nodal",
+        image: "chrisaquiabajopic.jpg",
+        path: "Christian Nodal - Aquí Abajo.mp3"
     },
 ];
 
