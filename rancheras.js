@@ -25,6 +25,96 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "No Es Por Acá",
+        artist: "Carin Leon",
+        image: "noesporacapic.jpg",
+        path: "Carin Leon - No Es Por Acá.mp3"
+    },
+    {
+        name: "Por el Resto de Tu Vida",
+        artist: "Christian Nodal x TINI",
+        image: "chrisporelrestopicc.jpg",
+        path: "Christian Nodal x TINI - Por el Resto de Tu Vida.mp3"
+    },
+    {
+        name: "Según Quién",
+        artist: "Maluma x Carin Leon ",
+        image: "malumacaripic.jpg",
+        path: "Maluma, Carin Leon - Según Quién.mp3"
+    },
+    {
+        name: "Kbron y Medio",
+        artist: "Christian Nodal",
+        image: "chrispic11.jpg",
+        path: "Christian Nodal - Kbron y Medio.mp3"
+    },
+    {
+        name: "La Siguiente",
+        artist: "Kany García x Christian Nodal",
+        image: "lasiguientepic.jpg",
+        path: "Kany García, Christian Nodal - La Siguiente.mp3"
+    },
+    {
+        name: "La Bachatita",
+        artist: "Christian Nodal",
+        image: "chrispic33.jpg",
+        path: "Christian Nodal - La Bachatita.mp3"
+    },
+    {
+        name: "Confieso",
+        artist: "Kany García ",
+        image: "kanypic.jpg",
+        path: "Kany García - Confieso.mp3"
+    },
+    {
+        name: "Me Dejé Llevar",
+        artist: "Christian Nodal",
+        image: "chrispic33.jpg",
+        path: "Christian Nodal-Me Dejé Llevar.mp3"
+    },
+    {
+        name: "Sabor a Mi",
+        artist: "Luis Miguel",
+        image: "luismiguel.jpg",
+        path: "Sabor a Mi.mp3"
+    },
+    {
+        name: "Eres",
+        artist: "Christian Nodal",
+        image: "chrispic44.jpg",
+        path: "Christian Nodal-Eres.mp3"
+    },
+    {
+        name: "Ojalá",
+        artist: "Christian Nodal",
+        image: "chrispic44.jpg",
+        path: "Christian Nodal-Ojalá.mp3"
+    },
+    {
+        name: "Te Lo Agradezco",
+        artist: "Kany Garcia x Carin Leon ",
+        image: "teloagradezcopic.jpg",
+        path: "Kany Garcia x Carin Leon - Te Lo Agradezco.mp3"
+    },
+    {
+        name: "Te Voy A Olvidar",
+        artist: "Christian Nodal",
+        image: "chrispic33.jpg",
+        path: "Christian Nodal-Te Voy A Olvidar.mp3"
+    },
+    {
+        name: "Qué Tal",
+        artist: "Christian Nodal",
+        image: "chrispic44.jpg",
+        path: "Christian Nodal - Qué Tal.mp3"
+    },
+    {
+        name: "Te Fallé",
+        artist: "Christian Nodal",
+        image: "chrispic33.jpg",
+        path: "Christian Nodal-Te Fallé.mp3"
+    },
+    {
         name: "No te contaron mal",
         artist: "Christian Nodal",
         image: "notecontaronmal.jpg",
@@ -60,13 +150,6 @@ let track_list = [
         image: "CHRISTIANNODALPIC.jpg",
         path: "Christian Nodal - Ya No Somos Ni Seremos.mp3"
     },
-    {
-        name: "Sabor a Mi",
-        artist: "Luis Miguel",
-        image: "luismiguel.jpg",
-        path: "Sabor a Mi.mp3"
-    },
-
 ];
 
 

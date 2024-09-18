@@ -35,7 +35,7 @@ body{
         text-shadow: 2px 2px 4px gold;
        }
       h1 ion-icon{
-        color: rgb(255, 251, 178);
+        color: rgb(255, 252, 188);
         border-bottom: 2px solid gold;
         box-shadow: 2px 4px 6px darkmagenta;
         border-radius: 50px;
@@ -279,7 +279,7 @@ body{
         box-shadow:2px 2px 4px gold;
         border:2px solid #33353b;
         padding: 2%;
-        bottom: 0%; 
+        bottom: 0%;
     }
     .navbar1{
         background-image: url(BRANDSGIFF1.gif);
@@ -287,8 +287,8 @@ body{
         border-radius: 20px;
         border:2px solid gold;
         box-shadow:2px 2px 4px gold;
-        padding: 1%;
-        bottom: 0%; 
+        padding: 1%; 
+        bottom: 0%;
     }
     .navbar2{
         background-image: url(MADDANCINGPIC.gif);
@@ -300,6 +300,16 @@ body{
         bottom: 0%; 
     
     }
+       
+    .navbar3{
+      background-image: url(nikegifff222222.gif);
+      background-position: center;
+      border-radius: 10px;
+      box-shadow:2px 2px 4px gold;
+      border:2px solid gold;
+      padding: 3%;
+      bottom: 0%;
+     }
 
       #sidebar{
         font-weight: bold;
