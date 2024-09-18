@@ -23,24 +23,156 @@ let updateTimer;
 let curr_track = document.createElement('audio');
 
 // Define the list of tracks that have to be played
-let track_list = [   
+let track_list = [
     {
-        name: "Hola",
-        artist: "Hildemaro",
-        image: "holapic.jpg",
-        path: "Hola - Hildemaro (.mp3"
+        name: "Me Mata La Soledad",
+        artist: "Tito Rojas",
+        image: "titopic44.jpg",
+        path: "Tito Rojas-Me Mata La Soledad.mp3"
+    }, 
+    {
+        name: "Mirándote",
+        artist: "Frankie Ruiz",
+        image: "frankiepic3.jpg",
+        path: "Frankie Ruiz-Mirándote.mp3"
+    },    
+    {
+        name: "Lloro",
+        artist: "Tito Rojas",
+        image: "TITORPIC.jpg",
+        path: "Tito Rojas-Lloro.mp3"
+    },     
+    {
+        name: "Hablame",
+        artist: "Frankie Ruiz",
+        image: "frankiepic2.jpg",
+        path: "Frankie Ruiz-Hablame.mp3"
     },
     {
-        name: "La Cura",
+        name: "Para Darte Fuego",
         artist: "Frankie Ruiz",
-        image: "frankieCurapic.jpg",
-        path: "Frankie Ruiz-La Cura.mp3"
+        image: "Frankiepic444.jpg",
+        path: "Frankie Ruiz-Para Darte Fuego.mp3"
+    },   
+    {
+        name: "Tú Eres",
+        artist: "Frankie Ruiz",
+        image: "frankiepic555.jpg",
+        path: "Frankie Ruiz-Tú Eres.mp3"
+    },   
+    {
+        name: "Tú Con Él",
+        artist: "Frankie Ruiz",
+        image: "frankiepic3.jpg",
+        path: "Frankie Ruiz-Tú Con Él.mp3"
+    },   
+    {
+        name: "Pequeñas Cosas",
+        artist: "Willie Gonzalez",
+        image: "williepic111.jpg",
+        path: "Willie Gonzalez-Pequeñas Cosas.mp3"
+    },   
+    {
+        name: "Amor Pirata",
+        artist: "Willie Gonzalez",
+        image: "williepic22.jpg",
+        path: "Willie Gonzalez-Amor Pirata.mp3"
+    },   
+    {
+        name: "He Vuelto",
+        artist: "Willie Gonzalez",
+        image: "williepic33.jpg",
+        path: "Willie Gonzalez-He Vuelto.mp3"
+    },   
+    {
+        name: "Aquel Lugar",
+        artist: "Adolescentes Orquesta",
+        image: "adolescentespic1.jpg",
+        path: "Adolescent's Orquesta - Aquel Lugar.mp3"
+    }, 
+    {
+        name: "Es Mi Mujer",
+        artist: "Tito Rojas",
+        image: "titopic33.jpg",
+        path: "Tito Rojas-Es Mi Mujer.mp3"
+    },        
+    {
+        name: "Se Acabó el Amor",
+        artist: "Adolescentes Orquesta",
+        image: "adolescentespic2.jpg",
+        path: "Adolescent's Orquesta - Se Acabó el Amor.mp3"
+    }, 
+    {
+        name: "Me Voy O Me Quedo",
+        artist: "Tito Rojas",
+        image: "TITORPIC.jpg",
+        path: "Tito Rojas-Me Voy O Me Quedo.mp3"
+    },     
+    {
+        name: "Ella Se Hizo Deseo",
+        artist: "Tito Rojas",
+        image: "titopic222.jpg",
+        path: "Tito Rojas-Ella Se Hizo Deseo.mp3"
+    },        
+    {
+        name: "Persona Ideal",
+        artist: "Adolescentes Orquesta",
+        image: "adolescentespic3.jpg",
+        path: "Adolescent's Orquesta - Persona Ideal.mp3"
+    },
+    {
+        name: "Este Amor",
+        artist: "Tito Rojas",
+        image: "titopic44.jpg",
+        path: "Tito Rojas-Este Amor.mp3"
+    },      
+    {
+        name: "Clase Social",
+        artist: "Adolescentes Orquesta",
+        image: "adolescentespic2.jpg",
+        path: "Adolescentes Orquesta - Clase Social.mp3"
+    },
+    {
+        name: "Porque Este Amor",
+        artist: "Tito Rojas",
+        image: "TITORPIC.jpg",
+        path: "Tito Rojas-Porque Este Amor.mp3"
+    },     
+    {
+        name: "Anhelo",
+        artist: "Adolescentes Orquesta",
+        image: "adolescentespic1.jpg",
+        path: "Adolescent's Orquesta - Anhelo.mp3"
     },
     {
         name: "Como Te Hago Entender",
         artist: "Roberto Roena",
         image: "COMOTEHAGOPIC.jpg",
         path: "Como Te Hago ENTENDER  - Roberto Roena [Video Lyric].mp3"
+    },      
+    {
+        name: "Virgen",
+        artist: "Adolescentes Orquesta",
+        image: "adolescentespic3.jpg",
+        path: "Adolescentes Orquesta - Virgen.mp3"
+    }, 
+    {
+        name: "La Cura",
+        artist: "Frankie Ruiz",
+        image: "frankieCurapic.jpg",
+        path: "Frankie Ruiz-La Cura.mp3"
+    },     
+    {
+        name: "Hoy Aprendí",
+        artist: "Adolescentes Orquesta",
+        image: "adolepic444.jpg",
+        path: "Adolescentes Orquesta - Hoy Aprendí.mp3"
+    },                      
+    {
+        name: "Hola",
+        artist: "Hildemaro",
+        image: "holapic.jpg",
+        path: "Hola - Hildemaro (.mp3"
     },
     {
         name: "Probablemente",
