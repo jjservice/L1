@@ -271,12 +271,6 @@ let track_list = [
         path: "Ñengo Flow x Myke Towers - Fast Money [Official Video].mp3"
     },
     {
-        name: "512",
-        artist: "Mora Ft Jhay Cortez",
-        image: "Mora-JhayPIC.jpg",
-        path: "Mora x Jhay Cortez - 512 (Video Oficial).mp3"
-    },
-    {
         name: "OBVIO",
         artist: "Myke Towers",
         image: "MykeObvioPIC.jpg",
@@ -287,12 +281,6 @@ let track_list = [
         artist: "Arcangel",
         image: "arcangelPic.jpg",
         path: "Arcangel - Kame Hame  SR. SANTOS.mp3"
-    },
-    {
-        name: "Quien Va a Frontiar",
-        artist: "Ozuna ft Young Chimi",
-        image: "OZUCHIMIPIC.jpg",
-        path: "Ozuna, YOVNGCHIMI - Quien Va a Frontiar (Video Oficial).mp3"
     },
     {
         name: "Trending",

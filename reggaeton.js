@@ -25,6 +25,24 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "Amantes y Amigos",
+        artist: "Arcangel x Sech",
+        image: "arcangelsechpicc.jpg",
+        path: "Arcangel x Sech-Amantes y Amigos.mp3"
+    },
+    {
+        name: "Fiel",
+        artist: "Wisin x  Jhay Cortez",
+        image: "jhaycowisinfielpic.jpg",
+        path: "Wisin x  Jhay Cortez - Fiel.mp3"
+    },
+    {
+        name: "Pierdo La Cabeza",
+        artist: "Zion & Lennox",
+        image: "zionlenoxpierdopic.jpg",
+        path: "Zion & Lennox - Pierdo La Cabeza.mp3"
+    },
+    {
         name: "El Final",
         artist: "Baby Rasta y Gringo",
         image: "babygringopic2.jpg",

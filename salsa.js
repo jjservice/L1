@@ -25,6 +25,48 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "Qué Precio Tiene el Cielo",
+        artist: "Marc Anthony",
+        image: "markpic1.jpg",
+        path: "Marc Anthony - Qué Precio Tiene el Cielo.mp3"
+    }, 
+    {
+        name: "Ahora Quien",
+        artist: "Marc Anthony",
+        image: "markpic222.jpg",
+        path: "Mark Anthony-Ahora Quien.mp3"
+    }, 
+    {
+        name: "Tu Amor Me Hace Bien",
+        artist: "Marc Anthony",
+        image: "markpic1.jpg",
+        path: "Mark Anthony-Tu Amor Me Hace Bien.mp3"
+    }, 
+    {
+        name: "Fabricando Fantasías",
+        artist: "Tito Nieves",
+        image: "fabricandopicc.jpg",
+        path: "Tito Nieves - Fabricando Fantasías.mp3"
+    }, 
+    {
+        name: "Valió la Pena",
+        artist: "Marc Anthony",
+        image: "markpic222.jpg",
+        path: "Marc Anthony - Valió la Pena.mp3"
+    }, 
+    {
+        name: "De Mi Enamorate",
+        artist: "Tito Nieves",
+        image: "titonievespiccc.jpg",
+        path: "Tito Nieves-De Mí Enamórate.mp3"
+    }, 
+    {
+        name: "La Cita",
+        artist: "Galy Galiano",
+        image: "galypicc.jpg",
+        path: "Galy GalianoLa Cita.mp3"
+    }, 
+    {
         name: "Me Mata La Soledad",
         artist: "Tito Rojas",
         image: "titopic44.jpg",
@@ -48,6 +90,12 @@ let track_list = [
         image: "frankiepic2.jpg",
         path: "Frankie Ruiz-Hablame.mp3"
     },
+    {
+        name: "Quien Entiende Este Amor",
+        artist: "Galy Galiano",
+        image: "galypicc.jpg",
+        path: "gary-Quien Entiende Este Amor.mp3"
+    }, 
     {
         name: "Para Darte Fuego",
         artist: "Frankie Ruiz",

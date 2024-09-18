@@ -25,6 +25,30 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "Piel Sin Alma",
+        artist: "Raulin Rodriguez",
+        image: "RAULINPIC.jpg",
+        path: "Raulin Rodriguez-Piel Sin Alma.mp3"
+    },
+    {
+        name: "Te Pierdo y Te Pienso",
+        artist: "Raulin Rodriguez",
+        image: "raulinpicc2222.jpg",
+        path: "Raulin Rodriguez-Te Pierdo y Te Pienso.mp3"
+    },
+    {
+        name: "La Mejor Versión De Mi",
+        artist: "Natti Natasha X Romeo Santos",
+        image: "ROMENATIPIC.jpg",
+        path: "Natti Natasha X Romeo Santos - La Mejor Versión De Mi (LetraLyrics) Remix.mp3"
+    },
+    {
+        name: "Ay Hombre",
+        artist: "Raulin Rodriguez",
+        image: "raulinpicc2222.jpg",
+        path: "Raulin Rodriguez - Ay Hombre.mp3"
+    },
+    {
         name: "Desesperado",
         artist: "Zacarias Ferreira",
         image: "zacaariaspic222.jpg",
@@ -37,10 +61,22 @@ let track_list = [
         path: "Yoskar Sarante-Guerra de Amor.mp3"
     },
     {
+        name: "Si Algún Día La Ves",
+        artist: "Raulin Rodriguez",
+        image: "RAULINPIC.jpg",
+        path: "Raulin Rodriguez-Si Algún Día La Ves.mp3"
+    },
+    {
         name: "Cuanto Duele Que Te Vas",
         artist: "Zacarias Ferreira",
         image: "zacariaspic111.jpg",
         path: "Zacarias Ferreira-Cuanto Duele Que Te Vas.mp3"
+    },
+    {
+        name: "Por un Segundo",
+        artist: "Aventura",
+        image: "aventurapic222.jpg",
+        path: "Aventura-Por un Segundo.mp3"
     },
     {
         name: "Amada Mia",
@@ -53,6 +89,12 @@ let track_list = [
         artist: "Anthony Santos",
         image: "anthonisantpic222.jpg",
         path: "ANTHONY SANTOS -ANTOLOGÍA DE CARICIAS.mp3"
+    },
+    {
+        name: "Su Veneno",
+        artist: "Aventura",
+        image: "aventurapic222.jpg",
+        path: "Aventura-Su Veneno.mp3"
     },
     {
         name: "Perdoname",
@@ -121,6 +163,12 @@ let track_list = [
         path: "Anthony Santos-Mi Primera Vez.mp3"
     },
     {
+        name: "La Tormenta",
+        artist: "Aventura",
+        image: "aventurapic222.jpg",
+        path: "Aventura-La Tormenta.mp3"
+    },
+    {
         name: "El Amor Es Libre",
         artist: "Yoskar Sarante",
         image: "yoskarpic33.jpg",
@@ -155,6 +203,12 @@ let track_list = [
         artist: "Yoskar Sarante",
         image: "yoskarpic222.jpg",
         path: "Yoskar Sarante-Prohibeme.mp3"
+    },
+    {
+        name: "Dile al Amor",
+        artist: "Aventura",
+        image: "aventurapic111.jpg",
+        path: "Aventura-Dile al Amor.mp3"
     },
     {
         name: "Fabula De Amor",
@@ -205,12 +259,6 @@ let track_list = [
         path: "Richie Ortega - El Fracaso.mp3"
     },
     {
-        name: "La Mejor Versión De Mi",
-        artist: "Natti Natasha X Romeo Santos",
-        image: "ROMENATIPIC.jpg",
-        path: "Natti Natasha X Romeo Santos - La Mejor Versión De Mi (LetraLyrics) Remix.mp3"
-    },
-    {
         name: "La Diabla",
         artist: "Romeo Santos",
         image: "ROMEOPICCCCCC.jpg",
@@ -233,6 +281,12 @@ let track_list = [
         artist: "Hector Acosta(Torito)",
         image: "TORITOPIC.jpg",
         path: "Quizás Si, Quizás No.mp3"
+    },
+    {
+        name: "El Malo",
+        artist: "Aventura",
+        image: "aventurapic111.jpg",
+        path: "Aventura-El Malo.mp3"
     },
     {
         name: "Perdóname la Vida",
