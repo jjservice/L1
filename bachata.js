@@ -25,6 +25,156 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "Desesperado",
+        artist: "Zacarias Ferreira",
+        image: "zacaariaspic222.jpg",
+        path: "Zacarias Ferreira-Desesperado.mp3"
+    },
+    {
+        name: "Guerra de Amor",
+        artist: "Yoskar Sarante",
+        image: "yoskarpic33.jpg",
+        path: "Yoskar Sarante-Guerra de Amor.mp3"
+    },
+    {
+        name: "Cuanto Duele Que Te Vas",
+        artist: "Zacarias Ferreira",
+        image: "zacariaspic111.jpg",
+        path: "Zacarias Ferreira-Cuanto Duele Que Te Vas.mp3"
+    },
+    {
+        name: "Amada Mia",
+        artist: "Elvis Martinez",
+        image: "ELVISMODAPIC.jpg",
+        path: "Elvis Martinez-Amada Mia.mp3"
+    },
+    {
+        name: "ANTOLOGIA DE CARICIAS",
+        artist: "Anthony Santos",
+        image: "anthonisantpic222.jpg",
+        path: "ANTHONY SANTOS -ANTOLOGÍA DE CARICIAS.mp3"
+    },
+    {
+        name: "Perdoname",
+        artist: "Yoskar Sarante",
+        image: "yoskarpic222.jpg",
+        path: "Yoskar Sarante-Perdoname.mp3"
+    },
+    {
+        name: "No Me Entendio",
+        artist: "Zacarias Ferreira",
+        image: "zacaariaspic222.jpg",
+        path: "Zacarias Ferreira-No Me Entendio.mp3"
+    },
+    {
+        name: "Olvidarme de Ti",
+        artist: "Anthony Santos",
+        image: "anthonysantospic1.jpg",
+        path: "Anthony Santos-Olvidarme de Ti.mp3"
+    },
+    {
+        name: "No Te Detengas",
+        artist: "Yoskar Sarante",
+        image: "yoskarpic222.jpg",
+        path: "Yoskar Sarante-No Te Detengas.mp3"
+    },
+    {
+        name: "Voy Amarte",
+        artist: "Elvis Martinez",
+        image: "elvimarpic222.jpg",
+        path: "Elvis Martinez-Voy Amarte.mp3"
+    },
+    {
+        name: "Sin Tu Amor No Hay Vida",
+        artist: "Zacarias Ferreira",
+        image: "zacaariaspic222.jpg",
+        path: "Zacarias Ferreira-Sin Tu Amor No Hay Vida.mp3"
+    },
+    {
+        name: "Mátame",
+        artist: "Anthony Santos",
+        image: "anthonysantospic1.jpg",
+        path: "Anthony Santos-Mátame.mp3"
+    },
+    {
+        name: "Escobita Nueva",
+        artist: "Yoskar Sarante",
+        image: "YOSKARPICG.jpg",
+        path: "Yoskar Sarante-Escobita Nueva.mp3"
+    },
+    {
+        name: "Bailando Con El",
+        artist: "Elvis Martinez",
+        image: "ELVISMODAPIC.jpg",
+        path: "Elvis Martinez-Bailando Con El.mp3"
+    },
+    {
+        name: "Dónde Está Mi Amor",
+        artist: "Zacarias Ferreira",
+        image: "zacariaspic111.jpg",
+        path: "Zacarias Ferreira-Dónde Está Mi Amor.mp3"
+    },
+    {
+        name: "Mi Primera Vez",
+        artist: "Anthony Santos",
+        image: "anthosanpic33.jpg",
+        path: "Anthony Santos-Mi Primera Vez.mp3"
+    },
+    {
+        name: "El Amor Es Libre",
+        artist: "Yoskar Sarante",
+        image: "yoskarpic33.jpg",
+        path: "Yoskar Sarante-El Amor Es Libre.mp3"
+    },
+    {
+        name: "Por Mi Timidez",
+        artist: "Anthony Santos",
+        image: "anthonysantospic1.jpg",
+        path: "Anthony Santos-Por Mi Timidez.mp3"
+    },
+    {
+        name: "Bella Sin Alma",
+        artist: "Elvis Martinez",
+        image: "elvimarpic222.jpg",
+        path: "Elvis Martinez-Bella Sin Alma.mp3"
+    },
+    {
+        name: "Si Te Llego A Perder",
+        artist: "Yoskar Sarante",
+        image: "YOSKARPICG.jpg",
+        path: "Yoskar Sarante-Si Te Llego A Perder.mp3"
+    },
+    {
+        name: "Donde Estará",
+        artist: "Anthony Santos",
+        image: "anthosanpic33.jpg",
+        path: "Anthony Santos-Donde Estará.mp3"
+    },
+    {
+        name: "Prohibeme",
+        artist: "Yoskar Sarante",
+        image: "yoskarpic222.jpg",
+        path: "Yoskar Sarante-Prohibeme.mp3"
+    },
+    {
+        name: "Fabula De Amor",
+        artist: "Elvis Martinez",
+        image: "elvimarpic222.jpg",
+        path: "Elvis Martinez-Fabula De Amor.mp3"
+    },
+    {
+        name: "Perdido ",
+        artist: "Yoskar Sarante",
+        image: "YOSKARPICG.jpg",
+        path: "Perdido  - Yoskar Sarante.mp3"
+    },
+    {
+        name: "La Bomba",
+        artist: "Zacarias Ferreira",
+        image: "zacariaspic111.jpg",
+        path: "Zacarias Ferreira-La Bomba.mp3"
+    },
+    {
         name: "Mi Santa",
         artist: "Romeo Santos",
         image: "ROMEOPICCCCCC.jpg",
