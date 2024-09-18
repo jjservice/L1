@@ -49,12 +49,6 @@ let track_list = [
         path: "Raulin Rodriguez - Ay Hombre.mp3"
     },
     {
-        name: "Desesperado",
-        artist: "Zacarias Ferreira",
-        image: "zacaariaspic222.jpg",
-        path: "Zacarias Ferreira-Desesperado.mp3"
-    },
-    {
         name: "Guerra de Amor",
         artist: "Yoskar Sarante",
         image: "yoskarpic33.jpg",

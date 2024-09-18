@@ -29,13 +29,13 @@ let track_list = [
         artist: "Marc Anthony",
         image: "markpic1.jpg",
         path: "Marc Anthony - Qué Precio Tiene el Cielo.mp3"
-    }, 
+    },
     {
-        name: "Ahora Quien",
+        name: "Se Me Sigue Olvidando",
         artist: "Marc Anthony",
         image: "markpic222.jpg",
-        path: "Mark Anthony-Ahora Quien.mp3"
-    }, 
+        path: "Mark Anthony-Se Me Sigue Olvidando.mp3"
+    },  
     {
         name: "Tu Amor Me Hace Bien",
         artist: "Marc Anthony",
@@ -61,11 +61,17 @@ let track_list = [
         path: "Tito Nieves-De Mí Enamórate.mp3"
     }, 
     {
+        name: "Ahora Quien",
+        artist: "Marc Anthony",
+        image: "markpic222.jpg",
+        path: "Mark Anthony-Ahora Quien.mp3"
+    }, 
+    {
         name: "La Cita",
         artist: "Galy Galiano",
         image: "galypicc.jpg",
         path: "Galy GalianoLa Cita.mp3"
-    }, 
+    },
     {
         name: "Me Mata La Soledad",
         artist: "Tito Rojas",
