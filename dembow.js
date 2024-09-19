@@ -37,6 +37,12 @@ let track_list = [
         path: "El Alfa El Jefe Ft. Chimbala - PARARARARA.mp3"
     },
     {
+        name: "La Tranza",
+        artist: "Bulin 47 x Myke Towers",
+        image: "BSMYKEPIC.jpg",
+        path: "Bulin 47 x Myke Towers - La Tranza (Video Oficial).mp3"
+    },
+    {
         name: "ESTE",
         artist: "El Alfa El Jefe x Nfasis",
         image: "este_pic.jpg",
@@ -49,16 +55,22 @@ let track_list = [
         path: "BULIN 47 X CEKY VICINY - CON SONIDO (PROD BREYCO).mp3"
     },
     {
-        name: "Tuwi Tuwi",
-        artist: "Jey One x Donaty",
-        image: "jonedonatypiccc.jpg",
-        path: "Jey One  Donaty - Tuwi Tuwi.mp3"
+        name: "EL SINGON (REMIX)",
+        artist: "Yomel El Meloso x J One x Harrison x Mapa",
+        image: "elsingonyomelremixpic.jpg",
+        path: "YOMEL EL MELOSO - EL SINGON (REMIX).mp3"
     },
     {
         name: "CHE CHE",
         artist: "Chimbala",
         image: "chimbalapic111.jpg",
         path: "Chimbala - CHE CHE.mp3"
+    },
+    {
+        name: "Ma Buena",
+        artist: "Yaisel LM",
+        image: "mabuenapic.jpg",
+        path: "Yaisel LM - Ma Buena (Video Oficial).mp3"
     },
     {
         name: "Feliz",
@@ -73,16 +85,94 @@ let track_list = [
         path: "LOMIIEL FT DONATY Y PAPERA - QUE LINDA.mp3"
     },
     {
-        name: "Ma Buena",
-        artist: "Yaisel LM",
-        image: "mabuenapic.jpg",
-        path: "Yaisel LM - Ma Buena (Video Oficial).mp3"
+        name: "EL CHAMAQUITO FUNDIO",
+        artist: "YOMEL EL MELOSO X NFASIS",
+        image: "NfasisYomelPic.jpg",
+        path: "YOMEL EL MELOSO X NFASIS - EL CHAMAQUITO FUNDIO.mp3"
     },
     {
-        name: "La Tranza",
-        artist: "Bulin 47 x Myke Towers",
-        image: "BSMYKEPIC.jpg",
-        path: "Bulin 47 x Myke Towers - La Tranza (Video Oficial).mp3"
+        name: "KICK CON EL BAJO",
+        artist: "TIVI GUNZ",
+        image: "TiviPic.jpg",
+        path: "TIVI GUNZ - KICK CON EL BAJO.mp3"
+    },
+    {
+        name: "EL DUEÑO DE LO CROKY",
+        artist: "El Alfa El Jefe x Yaisel LM",
+        image: "elalfayasielpic.jpg",
+        path: "El Alfa El Jefe x Yaisel LM - EL DUEÑO DE LO CROKY.mp3"
+    },
+    {
+        name: "Tuwi Tuwi",
+        artist: "Jey One x Donaty",
+        image: "jonedonatypiccc.jpg",
+        path: "Jey One  Donaty - Tuwi Tuwi.mp3"
+    },
+    {
+        name: "POMPOSO (Remix)",
+        artist: "El Alfa El Jefe Ft. Zion, Jowell, Yomel El Meloso, Shadow Blow, Bulova ",
+        image: "pomposoremixpic.jpg",
+        path: "El Alfa El Jefe Ft. Zion, Jowell, Yomel El Meloso, Shadow Blow, Bulova - POMPOSO (Remix).mp3"
+    },
+    {
+        name: "Pa Jamaica (Remix)",
+        artist: "El Alfa x Farruko x Darell x Myke Towers x Big O",
+        image: "pajamaicapic.jpg",
+        path: "El Alfa x Farruko x Darell x Myke Towers x Big O - Pa Jamaica (Remix).mp3"
+    },
+    {
+        name: "No Nos Parecemos",
+        artist: "El Alfa El Jefe",
+        image: "alfapic22.jpg",
+        path: "El Alfa El Jefe - No Nos Parecemos.mp3"
+    },
+    {
+        name: "Un Mono",
+        artist: "Donaty X Angel Dior",
+        image: "donatypic111.jpg",
+        path: "Donaty X Angel Dior - Un Mono.mp3"
+    },
+    {
+        name: "Rico Feo",
+        artist: "El Alfa El Jefe x Flow 28 x Polo Joa",
+        image: "ricofeoalfapic.jpg",
+        path: "El Alfa El Jefe x Flow 28 x Polo Joa - Rico Feo.mp3"
+    },
+    {
+        name: "SE QUEDO PEGAO",
+        artist: "TIVI GUNZ",
+        image: "TiviPic.jpg",
+        path: "TIVI GUNZ - SE QUEDO PEGAO.mp3"
+    },
+    {
+        name: "Un Selfie Con 3 Millones",
+        artist: "El Alfa El Jefe x Angel Dior",
+        image: "elalfaangelpic.jpg",
+        path: "El Alfa El Jefe Ft. Angel Dior- Un Selfie Con 3 Millones.mp3"
+    },
+    {
+        name: "Tengo Eso",
+        artist: "Angel Dior x Papa Tyga",
+        image: "angelpapPic.jpg",
+        path: "ANGEL DIOR X PAPAA TYGA - Tengo Eso.mp3"
+    },
+    {
+        name: "Arrebatao",
+        artist: "El Alfa El Jefe",
+        image: "alfapic11.jpg",
+        path: "El Alfa El Jefe - Arrebatao (Video Oficial).mp3"
+    },
+    {
+        name: "Vivela",
+        artist: "Donaty",
+        image: "donatypic111.jpg",
+        path: "Donaty-Vivela.mp3"
+    },
+    {
+        name: "TE LLENASTE",
+        artist: "El Alfa El Jefe Ft. Yomel El Meloso, El Fother",
+        image: "elalfatellenasteremixpic.jpg",
+        path: "El Alfa El Jefe - TE LLENASTE (Ft. Yomel El Meloso, El Fother).mp3"
     },
 ];
 
