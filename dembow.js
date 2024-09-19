@@ -39,7 +39,7 @@ let track_list = [
     {
         name: "La Tranza",
         artist: "Bulin 47 x Myke Towers",
-        image: "BSMYKEPIC.jpg",
+        image: "TRABULINMIKEPIC.jpg",
         path: "Bulin 47 x Myke Towers - La Tranza (Video Oficial).mp3"
     },
     {
@@ -129,7 +129,7 @@ let track_list = [
     {
         name: "Un Mono",
         artist: "Donaty X Angel Dior",
-        image: "donatypic111.jpg",
+        image: "angeldonapic.jpg",
         path: "Donaty X Angel Dior - Un Mono.mp3"
     },
     {
@@ -139,10 +139,64 @@ let track_list = [
         path: "El Alfa El Jefe x Flow 28 x Polo Joa - Rico Feo.mp3"
     },
     {
-        name: "SE QUEDO PEGAO",
-        artist: "TIVI GUNZ",
-        image: "TiviPic.jpg",
-        path: "TIVI GUNZ - SE QUEDO PEGAO.mp3"
+        name: "Me Arreglé",
+        artist: "Bulin 47",
+        image: "Bulin47Pic.jpg",
+        path: "Bulin 47 - Me Arreglé.mp3"
+    },
+    {
+        name: "CALORAZO",
+        artist: "Bulin 47",
+        image: "bulinPic2.jpg",
+        path: "Bulin 47 - CALORAZO.mp3"
+    },
+    {
+        name: "Po po po",
+        artist: "Bulin 47 x Flow 28",
+        image: "bulin28Pic.jpg",
+        path: "Bulin 47 x Flow 28 - Po po po.mp3"
+    },
+    {
+        name: "DORA",
+        artist: "FARIANA x El Alfa ",
+        image: "elalfadorapic.jpg",
+        path: "FARIANA x El Alfa - DORA.mp3"
+    },
+    {
+        name: "Tambora",
+        artist: "Flow 28",
+        image: "flow28tamborapic.jpg",
+        path: "Flow 28 - Tambora.mp3"
+    },
+    {
+        name: "500 KITIPO",
+        artist: "Flow 28 x Zunna",
+        image: "500kitipoPic.jpg",
+        path: "Flow 28 x Zunna - 500 KITIPO.mp3"
+    },
+    {
+        name: "SE COMENTA",
+        artist: "Flow 28 x Ceky Viciny",
+        image: "flow28cekiPic.jpg",
+        path: "Flow 28 x Ceky Viciny - SE COMENTA.mp3"
+    },
+    {
+        name: "Que Malo De Que",
+        artist: "YOMEL EL MELOSO x Lomiiel x El Mayor Clasico",
+        image: "qumalodequePic.png",
+        path: "YOMEL EL MELOSO x Lomiiel x El Mayor Clasico - Que Malo De Que.mp3"
+    },
+    {
+        name: "Mango piña",
+        artist: "Braulio Fogon",
+        image: "braulioPic.jpg",
+        path: "Braulio Fogon - Mango piña.mp3"
+    },
+    {
+        name: "Bagre",
+        artist: "Braulio Fogon",
+        image: "braulioPic.jpg",
+        path: "Braulio Fogon - Bagre.mp3"
     },
     {
         name: "Un Selfie Con 3 Millones",

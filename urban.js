@@ -25,10 +25,22 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "BACK TO BACK",
+        artist: "BRAULIO FOGON X LUIS BROWN",
+        image: "fogobackPic.jpg",
+        path: "BRAULIO FOGON X LUIS BROWN - BACK TO BACK.mp3"
+    },
+    {
         name: "YO LA HICE",
         artist: "ROCHY RD",
         image: "rochyyalohicepiccc.jpg",
         path: "ROCHY RD  - YO LA HICE.mp3"
+    },
+    {
+        name: "Pana Mío",
+        artist: "Polakan Ft. Melymel",
+        image: "panamiopic.jpg",
+        path: "Polakan Ft. Melymel - Pana Mío.mp3"
     },
     {
         name: "ASEGURAO",
@@ -37,10 +49,10 @@ let track_list = [
         path: "Shadow Blow  Lapiz Conciente - ASEGURAO.mp3"
     },
     {
-        name: "No Le Baje",
-        artist: "Miky Woodz",
-        image: "mikypicc44444.jpg",
-        path: "Miky Woodz - No Le Baje.mp3"
+        name: "Que Loquera",
+        artist: "Nino Freestyle x Yomel El Meloso",
+        image: "ninoyomelPic.jpg",
+        path: "Nino Freestyle x Yomel El Meloso - Que Loquera.mp3"
     },
     {
         name: "CRYPTO",
@@ -89,12 +101,6 @@ let track_list = [
         artist: "C-Dobleta",
         image: "quieneson.jpg",
         path: "QUIENES SON- CDOBLETA.mp3"
-    },
-    {
-        name: "Drug Dealer",
-        artist: "Ovi x Luar La L",
-        image: "LUAOVIPIC.jpg",
-        path: "Ovi x Luar La L - Drug Dealer.mp3"
     },
     {
         name: "Freestyle 8",
@@ -197,12 +203,6 @@ let track_list = [
         artist: "Lapiz Conciente",
         image: "lapizPi.jpg",
         path: "Lapiz Conciente - 9 Dias.mp3"
-    },
-    {
-        name: "Una Vela",
-        artist: "JAMBY EL FAVO",
-        image: "JAMBYPIC.jpg",
-        path: "Jamby El Favo - Una Vela (Video Oficial).mp3"
     },
     {
         name: "Que Esta Pasando",

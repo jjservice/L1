@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Drip",
-        artist: "Luar La L & Sinfonico",
-        image: "LUALLPICCC1111.jpg",
-        path: "Luar La L & Sinfonico - Drip.mp3"
+        name: "BACK TO BACK",
+        artist: "BRAULIO FOGON X LUIS BROWN",
+        image: "fogobackPic.jpg",
+        path: "BRAULIO FOGON X LUIS BROWN - BACK TO BACK.mp3"
     },
 ];
 

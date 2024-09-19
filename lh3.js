@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Myke Towers",
-        artist: "Gallery Dept",
-        image: "MIKEPIC22222.jpg",
-        path: "Myke Towers - Gallery Dept.mp3"
+        name: "Pana Mío",
+        artist: "Polakan Ft. Melymel",
+        image: "panamiopic.jpg",
+        path: "Polakan Ft. Melymel - Pana Mío.mp3"
     },
 ];
 

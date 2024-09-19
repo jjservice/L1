@@ -85,6 +85,18 @@ let track_list = [
         path: "Miky Woodz - Por Mi Lau.mp3"
     },
     {
+        name: "Que Loquera",
+        artist: "Nino Freestyle x Yomel El Meloso",
+        image: "ninoyomelPic.jpg",
+        path: "Nino Freestyle x Yomel El Meloso - Que Loquera.mp3"
+    },
+    {
+        name: "BACK TO BACK",
+        artist: "BRAULIO FOGON X LUIS BROWN",
+        image: "fogobackPic.jpg",
+        path: "BRAULIO FOGON X LUIS BROWN - BACK TO BACK.mp3"
+    },
+    {
         name: "Batman en Can Am",
         artist: "Arcángel",
         image: "ARCANGELPIC2.jpg",
