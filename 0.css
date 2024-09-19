@@ -755,7 +755,7 @@ body{
       
     }
     header a{
-      color: darkmagenta;
+      color: crimson;
       text-shadow: 6px 6px 10px darkmagenta;
       transition: color 0.5s ease;
       background-image: url(byegif.gif);
@@ -764,7 +764,7 @@ body{
       font-size: 30px;
       font-weight: bold;
       margin: 10px;
-      box-shadow: 2px 6px 6px darkmagenta;
+      box-shadow: 2px 6px 6px crimson;
       border-radius: 100%;
       padding: 10px;
       border: 4px solid gold;
@@ -773,8 +773,8 @@ body{
          
     }
      header a:hover{
-      color: crimson;
-      box-shadow: 2px 6px 6px crimson;
+      color: red;
+      box-shadow: 2px 6px 6px red;
       border: 4px solid red;
        
     }
