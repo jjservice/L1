@@ -302,12 +302,13 @@ body{
     }
        
     .navbar3{
-      background-image: url(nikegifff222222.gif);
+      background-image: url(nikegif.gif);
       background-position: center;
-      border-radius: 10px;
-      box-shadow:2px 2px 4px gold;
+      background-size: 10%;
+      border-radius: 20px;
+      box-shadow:2px 6px 6px darkmagenta;
       border:2px solid gold;
-      padding: 3%;
+      padding: 20px;
       bottom: 0%;
      }
 
