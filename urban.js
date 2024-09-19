@@ -25,6 +25,12 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
+        name: "YO LA HICE",
+        artist: "ROCHY RD",
+        image: "rochyyalohicepiccc.jpg",
+        path: "ROCHY RD  - YO LA HICE.mp3"
+    },
+    {
         name: "ASEGURAO",
         artist: "Shadow Blow X Lapiz Conciente",
         image: "SHADOWLAPIS5555.jpg",
@@ -275,12 +281,6 @@ let track_list = [
         artist: "Myke Towers",
         image: "MykeObvioPIC.jpg",
         path: "Myke Towers - OBVIO (Visualizer).mp3"
-    },
-    {
-        name: "Kame Hame",
-        artist: "Arcangel",
-        image: "arcangelPic.jpg",
-        path: "Arcangel - Kame Hame  SR. SANTOS.mp3"
     },
     {
         name: "Trending",

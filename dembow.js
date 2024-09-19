@@ -25,16 +25,52 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "QUE LINDA",
-        artist: "LOMIIEL FT DONATY Y PAPERA",
-        image: "QUELINDAPIC.jpg",
-        path: "LOMIIEL FT DONATY Y PAPERA - QUE LINDA.mp3"
+        name: "HAY LUPITA",
+        artist: "LOMIIEL",
+        image: "lomielpiccc.jpg",
+        path: "LOMIIEL - HAY LUPITA.mp3"
+    },
+    {
+        name: "PARARARARA",
+        artist: "El Alfa El Jefe x Chimbala",
+        image: "elalfachimbalapiccc.jpg",
+        path: "El Alfa El Jefe Ft. Chimbala - PARARARARA.mp3"
     },
     {
         name: "ESTE",
         artist: "El Alfa El Jefe x Nfasis",
         image: "este_pic.jpg",
         path: "El Alfa El Jefe x Nfasis - ESTE (Video Oficial).mp3"
+    },
+    {
+        name: "CON SONIDO",
+        artist: "BULIN 47 X CEKY VICINY",
+        image: "BULINCEKYPIC.jpg",
+        path: "BULIN 47 X CEKY VICINY - CON SONIDO (PROD BREYCO).mp3"
+    },
+    {
+        name: "Tuwi Tuwi",
+        artist: "Jey One x Donaty",
+        image: "jonedonatypiccc.jpg",
+        path: "Jey One  Donaty - Tuwi Tuwi.mp3"
+    },
+    {
+        name: "CHE CHE",
+        artist: "Chimbala",
+        image: "chimbalapic111.jpg",
+        path: "Chimbala - CHE CHE.mp3"
+    },
+    {
+        name: "Feliz",
+        artist: "Chimbala",
+        image: "chimbalapic111.jpg",
+        path: "Chimbala - Feliz.mp3"
+    },
+    {
+        name: "QUE LINDA",
+        artist: "LOMIIEL FT DONATY Y PAPERA",
+        image: "QUELINDAPIC.jpg",
+        path: "LOMIIEL FT DONATY Y PAPERA - QUE LINDA.mp3"
     },
     {
         name: "Ma Buena",
@@ -47,12 +83,6 @@ let track_list = [
         artist: "Bulin 47 x Myke Towers",
         image: "BSMYKEPIC.jpg",
         path: "Bulin 47 x Myke Towers - La Tranza (Video Oficial).mp3"
-    },
-    {
-        name: "CON SONIDO",
-        artist: "BULIN 47 X CEKY VICINY",
-        image: "BULINCEKYPIC.jpg",
-        path: "BULIN 47 X CEKY VICINY - CON SONIDO (PROD BREYCO).mp3"
     },
 ];
 

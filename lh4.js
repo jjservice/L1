@@ -25,10 +25,10 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
     {
-        name: "Batman en Can Am",
-        artist: "Arcángel",
-        image: "arcangelpichit.jpeg",
-        path: "Arcángel - Batman en Can Am.mp3"
+        name: "YO LA HICE",
+        artist: "ROCHY RD",
+        image: "rochyyalohicepiccc.jpg",
+        path: "ROCHY RD  - YO LA HICE.mp3"
     },
 ];
 
