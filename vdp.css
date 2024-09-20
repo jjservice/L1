@@ -257,7 +257,7 @@ label {
       
     }
     h1{
-       font-size: 45px;
+       font-size: 40px;
        color: white;
        margin-bottom: 20px;
        text-shadow: 2px 2px 4px gold;
@@ -278,7 +278,7 @@ label {
        color: white;
     }
     #jj, p ion-icon{
-        font-size: 16px;
+        font-size: 15px;
         text-align: center;
         color: darkgray;
         margin-right: 10px;
@@ -287,7 +287,8 @@ label {
         cursor: pointer;
         transition: color 0.3s ease;
         transition: text-shadow 0.3s ease;
-        border-bottom: 1px solid gold;
+        border-bottom: 1px solid magenta;
+        box-shadow: 2px 2px 6px gold;
         border-radius: 10px;
         font-style: oblique;
       
@@ -317,11 +318,12 @@ label {
         font-size: 16px;
         color: white;
         text-shadow: 2px 2px 4px gold;
-        background-color: darkmagenta;
-        box-shadow: 2px 2px 6px darkmagenta;
-        font-family: cursive;
+        background-color: rgba(139, 0, 139, 0.507);
+        border-bottom: 2px solid goldenrod;
+        box-shadow: 2px 2px 6px gold;
         font-weight: bold;
         font-style: oblique;
+        
     }
     .pvid{
         text-shadow: 2px 2px 4px gold;
@@ -348,7 +350,10 @@ label {
       .home-btn2 a button:hover{
         background-image: none;
        color: darkmagenta; 
-       background-color: gold;
+       background-image: url(byegif.gif);
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
        text-shadow: 2px 2px 10px gold;
        border: 1px solid gold;
        cursor: pointer;
