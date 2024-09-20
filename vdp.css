@@ -315,9 +315,9 @@ label {
     h6{
         background-image: none;
         font-size: 16px;
-        color: gold;
-        text-shadow: 2px 2px 4px darkmagenta;
-        background-color: transparent;
+        color: white;
+        text-shadow: 2px 2px 4px gold;
+        background-color: darkmagenta;
         box-shadow: 2px 2px 6px darkmagenta;
         font-family: cursive;
         font-weight: bold;
