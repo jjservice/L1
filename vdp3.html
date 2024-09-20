@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0">
+    <title>LOLLIPOP</title>
+    <link rel="stylesheet" href="0.css">
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" 
+          href="vdp.css">
+
+</head>
+
+<body>
+    <h1>LOLLI<ion-icon name="pin-outline"></ion-icon>VIDEOS</h1>
+    <p id="jj">JJPoweredIT<ion-icon name="bonfire-outline"></ion-icon></p>
+    <br>
+    <!-- Video container -->
+    <div class="video-container">
+        <img src="estesPIC111.jpg"
+               id="video-thumbnail">
+        <video id="video">
+            
+          <!-- Video source -->
+            <source
+                src="El Alfa  El Jefe  x Nfasis - ESTE (Oficial Video).mp4"
+                type="video/mp4">
+        </video>
+      
+        <!-- Controlers continer -->
+        <div class="controls">
+            
+          <!-- Left controller div -->
+            <div class="left">
+                <button id="skipminus-10">
+                    <i class="fa-solid fa-backward"></i>
+                  </button>
+                <button id="play-pause">
+                    <i class="fa-solid fa-play"></i>
+                  </button>
+                <button id="skip-10">
+                      <i class="fa-solid fa-forward"></i>
+                  </button>
+            </div>
+          
+      <!-- div for progress bar -->
+            <div class="video-timer">
+                <span id="current-time">00:00</span>
+                <span id="separator">/</span>
+                <span id="max-duration">00:00</span>
+            </div>
+            <div class="playback-line">
+                <div class="progress-bar"></div>
+
+            </div>
+          
+            <!-- Right controller div -->
+            <div class="right">
+                <div class="volume-container">
+                    <div id="mute">
+                        <i class="fas fa-volume-up"></i>
+                    </div>
+                    <input type="range" 
+                           id="volume" 
+                           min="0" 
+                           max="1" 
+                           step="0.01" 
+                           value="1">
+                </div>
+            </div>
+        </div>
+        <p class="pvid">El Alfa El Jefe x Nfasis</p><br>
+        <h6>"ESTE O ESTE"</h6> 
+    <br>
+    <p id=""><a href="vdp2.html">BACK</a></p>
+    <br>
+     <br>
+     <p id="jj">JJPoweredIT<ion-icon name="bonfire-outline"></ion-icon></p>
+    <div class="home-btn2">
+        <a href="1.html"><button id="back"><ion-icon name="home-sharp"></ion-icon></button>
+          </a>
+        </div>
+     <br>
+    
+     
+    
+
+    <script src="vdp.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

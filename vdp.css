@@ -10,7 +10,7 @@ body {
     justify-content: center;
     height: 100vh;
     flex-direction: column;
-    border-radius: 15px;
+    border-radius: 20px;
     background-image: none;
     background-position: center;
     background-size: cover;
@@ -255,7 +255,7 @@ label {
       
     }
     h1{
-       font-size: 45px;
+       font-size: 40px;
        color: white;
        margin-bottom: 20px;
        text-shadow: 2px 2px 4px gold;
@@ -323,7 +323,7 @@ label {
         font-size: 25px;
         color:goldenrod;
         box-shadow: 2px 4px 10px darkmagenta;
-        border-radius: 20px;
+        border-radius: 10px;
         width: 20%;
         background-color: #151515;
       }
@@ -336,4 +336,57 @@ label {
        background-position: center;
        background-size: cover;
      
+      }
+      span ion-icon{
+        margin-top: 20px;
+        font-size: 25px;
+        color: gold;
+        text-shadow: 2px 4px 10px darkmagenta;
+        background-image: url(lollipop_4444GIF.gif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 200%;
+        width: 20%;
+        box-shadow: 2px 4px 10px darkmagenta;
+        border: 1px solid gold;
+        cursor: pointer;
+        margin-bottom: 20px;
+ 
+      }
+      p a{
+        color: white;
+        text-shadow: 2px 2px 4px gold;
+        font-weight: bold;
+        text-decoration: none;
+        border: 4px solid gold;
+        width: 30%;
+        padding: 4px;
+        box-shadow: 2px 2px 4px darkmagenta;
+        border-radius: 15px;
+        text-align: center;
+        background-image: url(lollipop_3GIF.gif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #151515;
+       
+      }
+      p a ion-icon{
+        box-shadow: none;
+      }
+      div button a{
+        color: white;
+        text-shadow: 2px 2px 4px gold;
+        font-size: 18px;
+        text-decoration: none;
+        border: 4px solid gold;
+        box-shadow: 2px 2px 4px darkmagenta;
+        border-radius: 10px;
+        background-image: url(lollipop_3GIF.gif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #151515;
+        padding: 2px;
       }
